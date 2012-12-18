@@ -97,4 +97,9 @@ h1{
 
 #movieTable th{
     font-size: 25px;
+    text-align: center;
+}
+
+#movieTable td{
+    text-align: center;
 }
