@@ -1,0 +1,46 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]--> <!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]--> <!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]--> <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>EXAMPLE 1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LOAD CSS -->
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+</head>
+<body>
+<script type="text/x-handlebars" data-template-name="application">
+    <h1>My Movie List</h1>
+
+    <table class="table" id="movieTable">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Rating</th>
+                <th>Available</th>
+            </tr>
+        </thead>
+        {{#each movie in App.movieController}}
+            <tr>
+                <td>{{movie.title}}</td>
+                <td>{{movie.rating}}</td>
+                <td>{{movie.available}}</td>
+            </tr>
+        {{/each}}
+    </table>
+</script>
+
+
+<!-- LOAD JAVASCRIPT -->
+<script src="../../assets/js/libs/jquery-1.7.2.min.js"></script>
+<script src="../../assets/js/libs/handlebars-1.0.0.beta.6.js"></script>
+<script src="../../assets/js/libs/ember-1.0.0-pre.2.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
