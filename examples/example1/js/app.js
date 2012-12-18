@@ -16,7 +16,7 @@ App.Movie = Ember.Object.extend({
 /******************************************************/
 /*              CONTROLLER                            */
 /******************************************************/
-App.MovieController = Ember.ArrayController.extend({
+App.MoviesController = Ember.ArrayController.extend({
     content : null,
 
     init: function(){
@@ -24,8 +24,25 @@ App.MovieController = Ember.ArrayController.extend({
     }
 });
 
+/******************************************************/
+/*              VIEW                                  */
+/******************************************************/
+App.MoviesView = Ember.View.extend({
+    templateName: "movies",
+    baseClass: "table",
+    additionalClass: "table-hover"
+    //table-bordered
+});
+
+
 
 App.ready = function() {
+
+    //CREATE THE INSTANCES
+    App.moviesView = App.MoviesView.create().append();
+    App.moviesController = App.MoviesController.create();
+
+    //CREATE SOME DATA
     var movie = App.Movie.create();
     movie.set('title','The Shawshank Redemption');
     movie.set('year', 1994);
@@ -47,14 +64,10 @@ App.ready = function() {
     movie3.set('available', true);
     movie3.set('imdbLink', 'http://www.imdb.com/title/tt0068646/');
 
-
-    App.movieController = App.MovieController.create();
-    App.movieController.addObject(movie);
-    App.movieController.addObject(movie2);
-    App.movieController.addObject(movie3);
-
+    App.moviesController.addObject(movie);
+    App.moviesController.addObject(movie2);
+    App.moviesController.addObject(movie3);
 };
 
-
-
+//INITIALIZE
 App.initialize();

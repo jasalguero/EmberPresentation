@@ -15,23 +15,25 @@
 
 </head>
 <body>
-<script type="text/x-handlebars" data-template-name="application">
+
+
+<script type="text/x-handlebars" data-template-name="movies">
     <h1>My Movie List</h1>
 
-    <table class="table" id="movieTable">
+    <table {{bindAttr class="view.baseClass view.additionalClass"}} id="movieTable">
         <thead>
-            <tr>
-                <th>Title</th>
-                <th>Rating</th>
-                <th>Available</th>
-            </tr>
+        <tr>
+            <th>Title</th>
+            <th>Rating</th>
+            <th>Available</th>
+        </tr>
         </thead>
-        {{#each movie in App.movieController}}
-            <tr>
-                <td>{{movie.title}}</td>
-                <td>{{movie.rating}}</td>
-                <td>{{movie.available}}</td>
-            </tr>
+        {{#each movie in App.moviesController}}
+        <tr>
+            <td>{{movie.title}}</td>
+            <td>{{movie.rating}}</td>
+            <td>{{movie.available}}</td>
+        </tr>
         {{/each}}
     </table>
 </script>
@@ -42,5 +44,6 @@
 <script src="../../assets/js/libs/handlebars-1.0.0.beta.6.js"></script>
 <script src="../../assets/js/libs/ember-1.0.0-pre.2.min.js"></script>
 <script src="js/app.js"></script>
+
 </body>
 </html>
