@@ -1,0 +1,576 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display : block;
+}
+audio:not([controls]) {
+    display : none;
+    height : 0;
+}
+[hidden] {
+    display : none;
+}
+html {
+    font-size : 100%;
+}
+html, button, input, select, textarea {
+    font-family : sans-serif;
+}
+body {
+    margin : 0;
+}
+a:focus {
+    outline : thin dotted;
+}
+a:hover, a:active {
+    outline : 0;
+}
+h1 {
+    font-size : 2em;
+    margin : 0.67em 0;
+}
+h2 {
+    font-size : 1.5em;
+    margin : 0.83em 0;
+}
+h3 {
+    font-size : 1.17em;
+    margin : 1em 0;
+}
+h4 {
+    font-size : 1em;
+    margin : 1.33em 0;
+}
+h5 {
+    font-size : 0.83em;
+    margin : 1.67em 0;
+}
+h6 {
+    font-size : 0.75em;
+    margin : 2.33em 0;
+}
+abbr[title] {
+    border-bottom : 1px dotted;
+}
+b, strong {
+    font-weight : bold;
+}
+blockquote {
+    margin : 1em 40px;
+}
+dfn {
+    font-style : italic;
+}
+mark {
+    background : #ff0;
+    color : #000;
+}
+p, pre {
+    margin : 1em 0;
+}
+pre, code, kbd, samp {
+    font-family : monospace, serif;
+    font-size : 1em;
+}
+pre {
+    white-space : pre;
+    white-space : pre-wrap;
+    overflow-wrap : break-word;
+}
+q {
+    quotes : none;
+}
+q:before, q:after {
+    content : '';
+    content : none;
+}
+small {
+    font-size : 75%;
+}
+sub, sup {
+    font-size : 75%;
+    line-height : 0;
+    position : relative;
+    vertical-align : baseline;
+}
+sup {
+    top : -0.5em;
+}
+sub {
+    bottom : -0.25em;
+}
+dl, menu, ol, ul {
+    margin : 1em 0;
+}
+dd {
+    margin : 0 0 0 40px;
+}
+menu, ol, ul {
+    padding : 0 0 0 40px;
+}
+nav ul, nav ol {
+    list-style : none;
+    list-style-image : none;
+}
+img {
+    border : 0;
+}
+svg:not(:root) {
+    overflow : hidden;
+}
+figure {
+    margin : 0;
+}
+form {
+    margin : 0;
+}
+fieldset {
+    border : #c0c0c0 solid 1px;
+    margin : 0 2px;
+    padding : 0.35em 0.625em 0.75em;
+}
+button, input {
+    line-height : normal;
+}
+button[disabled], input[disabled] {
+    cursor : default;
+}
+input[type="search"] {
+    box-sizing : content-box;
+}
+textarea {
+    overflow : auto;
+    vertical-align : top;
+}
+table {
+    border-collapse : collapse;
+    border-spacing : 0;
+}
+.sc-border-box {
+    box-sizing : border-box;
+}
+.sc-button:visited {
+    color : #333;
+}
+.sc-button:disabled {
+    background-color : #fff;
+    box-shadow : none;
+    border-color : rgba(0, 0, 0, 0.04) rgba(0, 0, 0, 0.08) rgba(0, 0, 0, 0.14);
+    color : #ccc;
+    text-shadow : 0 1px 0 #fff;
+    cursor : default;
+}
+.sc-button + .sc-button {
+    margin-left : 5px;
+}
+.sc-button-small {
+    font-size : 11px;
+    padding : 2px 10px;
+    height : 24px;
+}
+.sc-button-large {
+    font-size : 14px;
+    padding : 5px 10px;
+    height : 30px;
+}
+.sc-button.sc-button-text, .sc-button.sc-button-text:hover, .sc-button.sc-button-text:focus {
+    border-color : transparent !important ;
+    background : none !important ;
+    box-shadow : none !important ;
+    text-shadow : 0 1px 0 #fff !important ;
+}
+.sc-button.sc-button-text {
+    color : #999;
+}
+.sc-button.sc-button-text:hover, .sc-button.sc-button-text:focus {
+    color : #666;
+}
+.sc-button-small.sc-button-text {
+    padding-left : 0;
+    padding-right : 0;
+}
+.sc-button-selected {
+    background : #06c;
+    text-shadow : 0 1px 0 #000;
+    box-shadow : 0 0 6px #039 inset;
+    border-color : #000 #006 #006;
+    color : #fff;
+    cursor : default;
+    transition : color 0.3s, background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+.sc-button-selected:hover, .sc-button-selected:focus {
+    background-color : #06c;
+    border-color : #000 #006 #006;
+    color : #fff;
+    box-shadow : none;
+}
+.sc-button-selected.sc-button-orange-selected {
+    background-color : #f60;
+    text-shadow : 0 1px 0 rgba(0, 0, 0, 0.5);
+    box-shadow : 0 0 6px #F30 inset;
+    border-color : #c30;
+}
+.sc-button-selected.sc-button-orange-selected:hover, .sc-button-selected.sc-button-orange-selected:focus {
+    border-color : #c30;
+}
+.sc-button-selected.sc-button-gray-selected {
+    background : #999;
+    border-color : #666;
+    border-top-color : rgba(0, 0, 0, 0.4);
+    box-shadow : 0 0 8px rgba(0, 0, 0, 0.4) inset;
+}
+.sc-button-selected.sc-button-gray-selected:hover, .sc-button-selected.sc-button-gray-selected:focus {
+    background : #aeaeae;
+    box-shadow : 0 0 4px rgba(0, 0, 0, 0.1) inset;
+}
+.user-follow-button.sc-button-large {
+    width : 115px;
+}
+.user-follow-button.sc-button-small {
+    width : 86px;
+}
+.sc-button-icon:before {
+    content : "";
+    display : inline-block;
+    vertical-align : middle;
+    background-repeat : no-repeat;
+    background-position : center center;
+}
+.sc-button-icon.sc-button-small:before {
+    width : 15px;
+    height : 15px;
+    margin-top : -1px;
+}
+.sc-button-repost.sc-button-small:before {
+    width : 16px;
+}
+.sc-button-selected.sc-button-repost.sc-button-small:before {
+    width : 16px;
+}
+.sc-button-like.sc-button-small.sc-button-selected > span, .sc-button-repost.sc-button-small.sc-button-selected > span {
+    text-shadow : none;
+    width : 0;
+    margin-left : -1px;
+}
+.sc-button-icon.sc-button-large {
+    padding : 5px 10px 3px;
+}
+.sc-button-icon.sc-button-large:before {
+    width : 20px;
+    height : 20px;
+}
+.sc-button-icon > span {
+    margin-left : 2px;
+}
+.sc-button-icon.sc-button-icon-only span {
+    text-shadow : none;
+    width : 0;
+    margin-left : -1px;
+}
+@media screen and (max-width:1024px) {
+    .sc-button-icon > span {
+        text-shadow : none;
+        width : 0;
+        margin-left : -1px;
+    }
+}
+.sc-clearfix:before, .sc-clearfix:after {
+    content : "";
+    display : table;
+}
+.sc-clearfix:after {
+    clear : both;
+}
+.sc-orange {
+    color : #f60;
+}
+.sc-blue {
+    color : #06c;
+}
+.sc-text {
+    color : #333;
+}
+.sc-text-light {
+    color : #999;
+}
+@font-face {
+{
+    font-family : '"Interstate"';
+    font-weight : 100;
+}
+    }
+@font-face {
+{
+    font-family : '"Interstate"';
+    font-weight : normal;
+}
+    }
+.sc-font {
+    font-family : "Interstate", "Lucida Grande", Arial, sans-serif;
+}
+textarea, select, input[type="text"], input[type="password"], input[type="search"] {
+    box-sizing : border-box;
+}
+button[disabled], input[disabled] {
+    color : #999;
+}
+textarea, select, button, input {
+    font-family : inherit;
+    color : #333;
+}
+textarea, select, input {
+    background : #fff;
+    border : #ccc solid 1px;
+}
+.sc-hypenate {
+    word-break : break-all;
+    hyphens : auto;
+}
+.sc-icon-small, .sc-icon-medium, .sc-icon-large {
+    display : inline-block;
+    vertical-align : top;
+    background-repeat : no-repeat;
+    background-position : center center;
+}
+.sc-icon-small {
+    width : 12px;
+    height : 12px;
+}
+.sc-icon-medium {
+    width : 18px;
+    height : 18px;
+    vertical-align : text-bottom;
+}
+.sc-icon-large {
+    width : 24px;
+    height : 24px;
+}
+.sc-icon-small.sc-icon-online {
+    width : 9px;
+    height : 9px;
+}
+.sc-icon-medium.sc-icon-private {
+    width : 14px;
+    height : 16px;
+}
+.sc-icon-large.sc-icon-online {
+    width : 18px;
+    height : 18px;
+}
+.sc-license-icon, .sc-license-icon:before, .sc-license-icon:after {
+    width : 14px;
+    height : 14px;
+    display : inline-block;
+    vertical-align : top;
+    background-repeat : no-repeat;
+    background-position : center center;
+    content : "";
+}
+.sc-license-icon-cc-by-nc, .sc-license-icon-cc-by-nd, .sc-license-icon-cc-by-sa {
+    margin-left : 16px;
+}
+.sc-license-icon-cc-by-nc:before, .sc-license-icon-cc-by-nd:before, .sc-license-icon-cc-by-sa:before, .sc-license-icon-cc-by-nc-nd:before, .sc-license-icon-cc-by-nc-sa:before {
+    margin-left : -16px;
+}
+.sc-license-icon-cc-by-nc-nd, .sc-license-icon-cc-by-nc-sa {
+    margin-left : 32px;
+}
+.sc-license-icon-cc-by-nc-nd:before, .sc-license-icon-cc-by-nc-sa:before {
+    margin-left : -32px;
+}
+.sc-license-icon-cc-by-nc-nd:after, .sc-license-icon-cc-by-nc-sa:after {
+    margin-left : 2px;
+}
+a, a:visited {
+    color : #06c;
+    text-decoration : none;
+}
+a:hover {
+    color : #f60;
+}
+a.sc-link-dark {
+    color : #333;
+}
+a.sc-link-dark:hover {
+    color : #000;
+}
+a.sc-link-light {
+    color : #999;
+}
+a.sc-link-light:hover {
+    color : #333;
+}
+a.sc-link-superlight {
+    color : #b3b3b3;
+}
+a.sc-link-superlight:hover {
+    color : #999;
+}
+a.sc-link-dark, a.sc-link-light, a.sc-link-superlight {
+    transition : color 0.1s linear;
+}
+ul, ol {
+    padding : 0;
+    margin : 0 0 18px 25px;
+}
+ul ul, ul ol, ol ol, ol ul {
+    margin-bottom : 0;
+}
+ul {
+    list-style : disc;
+}
+ol {
+    list-style : decimal;
+}
+.sc-list-nostyle {
+    list-style : none;
+    margin : 0;
+}
+.sc-media, .sc-media-content {
+    overflow : hidden;
+}
+.sc-media-image {
+    float : left;
+    margin-right : 10px;
+}
+.sc-media-image img {
+    display : block;
+}
+.sc-ministats-icon-small, .sc-ministats-icon-medium, .sc-ministats-icon-large {
+    display : inline-block;
+    vertical-align : top;
+    background-repeat : no-repeat;
+    background-position : center center;
+}
+.sc-ministats-icon-small {
+    width : 14px;
+    height : 13px;
+}
+.sc-ministats-icon-medium {
+    width : 18px;
+    height : 18px;
+}
+.sc-ministats-icon-large {
+    width : 28px;
+    height : 22px;
+}
+.sc-pointer {
+    cursor : pointer;
+}
+.sc-selection-text {
+    cursor : auto;
+}
+.sc-selection-disabled {
+    cursor : default;
+    outline : 0;
+}
+.sc-social-icon {
+    display : inline-block;
+    width : 16px;
+    height : 16px;
+    background-repeat : no-repeat;
+    background-position : center center;
+    vertical-align : top;
+}
+.sc-truncate {
+    overflow : hidden;
+    white-space : nowrap;
+    text-overflow : ellipsis;
+}
+body {
+    font : 12px/1.5 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
+    color : #333;
+}
+h1, .sc-type-h1, h2, .sc-type-h2, h3, .sc-type-h3, h4, .sc-type-h4, h5, .sc-type-h5, h6, .sc-type-h6 {
+    font-family : "Interstate", "Lucida Grande", Arial, sans-serif;
+    font-weight : normal;
+    margin : 18px 0 0 0;
+    line-height : 1.3;
+}
+h1:first-child, .sc-type-h1:first-child, h2:first-child, .sc-type-h2:first-child, h3:first-child, .sc-type-h3:first-child, h4:first-child, .sc-type-h4:first-child, h5:first-child, .sc-type-h5:first-child, h6:first-child, .sc-type-h6:first-child {
+    margin-top : 0;
+}
+h1, .sc-type-h1 {
+    font-size : 32px;
+    color : #06c;
+}
+h2, .sc-type-h2 {
+    font-size : 16px;
+}
+h3, .sc-type-h3 {
+    font-size : 14px;
+}
+h4, .sc-type-h4 {
+    margin-top : 0;
+}
+.sc-type-subhead {
+    font-size : 14px;
+    font-weight : 100;
+    color : #999;
+}
+h1 .sc-type-subhead, .sc-type-h1 .sc-type-subhead {
+    font-size : 16px;
+}
+h2 .sc-type-subhead, .sc-type-h2 .sc-type-subhead {
+    font-size : 14px;
+}
+h3 .sc-type-subhead, .sc-type-h3 .sc-type-subhead {
+    font : normal normal 12px/1.5 "Lucida Grande", Arial, sans-serif;
+}
+p {
+    margin : 0 0 18px 0;
+}
+.sc-type-light {
+    font-weight : 100;
+    color : #999;
+}
+.sc-type-highlight {
+    font-family : "Interstate", "Lucida Grande", Arial, sans-serif;
+    font-size : 16px;
+    font-weight : 100;
+    line-height : 1.3;
+}
+hr {
+    background : #ccc;
+    position : relative;
+    height : 1px;
+    margin : 18px 0 17px 0;
+    border : 0;
+    width : 100%;
+}
+b, strong {
+    font-weight : normal;
+}
+pre, code {
+    font-family : 'Monaco', 'Courier New', monospace, serif;
+    font-size : 1em;
+}
+.sc-ir {
+    border : 0;
+    text-shadow : none;
+    color : transparent;
+    background-color : transparent;
+}
+.sc-hidden {
+    display : none !important ;
+    visibility : hidden;
+}
+.sc-visuallyhidden {
+    border : 0;
+    clip : rect(0 0 0 0);
+    height : 1px;
+    margin : -1px;
+    overflow : hidden;
+    padding : 0;
+    position : absolute;
+    width : 1px;
+}
+.sc-visuallyhidden.sc-focusable:active, .visuallyhidden.sc-focusable:focus {
+    clip : auto;
+    height : auto;
+    margin : 0;
+    overflow : visible;
+    position : static;
+    width : auto;
+}
+.sc-invisible {
+    visibility : hidden;
+}
