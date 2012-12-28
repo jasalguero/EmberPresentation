@@ -89,6 +89,11 @@ a {
     transition:         0.5s;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 a:hover,
 a:focus {
     background: rgba(255,255,255,1);
@@ -338,6 +343,10 @@ h2 {
     font-size: 48px
 }
 
+h3{
+    font-size: 35px;
+}
+
 .step{
     font: 40pt 'OpenSansBold', Arial, sans-serif;
     text-align: center;
@@ -367,4 +376,30 @@ h2 {
     -moz-box-shadow: 5px 5px 5px #ccc;
     -webkit-box-shadow: 5px 5px 5px #ccc;
     box-shadow: 5px 5px 5px #ccc;
+}
+
+.slideTitle{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.slideContent{
+    text-align: center;
+    font-size: 40px;
+}
+
+pre{
+    font-size: 0.6em;
+}
+
+body pre code {
+text-align: left;
+    font-size: 20px;
+background: rgba(0, 0, 0, 0.4);
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+padding: 0;
+text-align: left;
 }

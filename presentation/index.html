@@ -1,0 +1,306 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Ember.js A very subtle introduction</title>
+    
+    <meta name="description" content="Ember.js A very subtle introduction" />
+    <meta name="author" content="Jose Salguero" />
+
+    <!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />-->
+
+
+    <link href="css/zenburn.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<!--
+    Fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="logo" class="step" data-x="0" data-y="0" data-scale="4">
+        <div class="clear">
+            <img src="images/ember-logo.png" width="221px" height="184px" class="float-left" /><span style="line-height: 221px;" class="title">ember.js</span>
+        </div>
+        <span class="subtitle clear">A <u><i>very</i></u> gentle introduction</span>
+    </div>
+
+    <div class="step" data-x="-4000" data-y="0">
+        What is <span style="color:#ff7f24">Ember.js</span>?
+    </div>
+
+    <div id="history" class="step" data-x="-20000" data-z="5000" data-y="0" data-rotate="50" data-scale="150">
+        A bit of history...
+        <img src="images/history.png"/>
+    </div>
+
+    <div class="step" data-x="-20000" data-z="-1000" data-y="0" data-rotate="90">
+       <div class="slideTitle">Ok... so what is <span style="color:#ff7f24">Ember.js</span>?</div>
+       <div class="slideContent">
+           <ul class="justified">
+               <li>MVC Javascript Framework</li>
+               <li>Rapid Development</li>
+               <li>Enforce Good Practices</li>
+               <li>Maintainable Code</li>
+           </ul>
+       </div>
+    </div>
+
+    <div id="sections" class="step" data-x="0" data-y="8000" data-scale="4">
+        <div class="columns">
+            <div class="column basics justified">
+                <ul>
+                    <li><h2>Basics</h2></li>
+                    <li>Application</li>
+                    <li>Model</li>
+                    <li>View</li>
+                    <li>Controller</li>
+                    <li>Handlebars</li>
+                </ul>
+            </div>
+            <div class="column advanced justified">
+                <ul>
+                    <li><h2>Advanced</h2></li>
+                    <li>Router</li>
+                    <li>Computed Properties</li>
+                    <li>Mixins</li>
+                </ul>
+            </div>
+            <div class="column conclusions justified">
+                <ul>
+                <li><h2>Conclusions</h2></li>
+                <li>The Bad</li>
+                <li>The Good</li>
+                <li>Resources</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="sections-basics" class="step" data-x="-1200" data-y="8000" data-scale="2"></div>
+
+    <div id="basics-application" class="step" data-x="-1200" data-y="10000" data-rotate="90" data-scale="2">
+        <div class="slideTitle">Application</div>
+        <div class="slideContent">
+            <ul class="justified">
+                <li>Defines the namespace</li>
+                <li>Contains the ember components</li>
+                <li>Controls the lifecycle</li>
+            </ul>
+        </div>
+    </div>
+    <div id="basics-application-code" class="step" data-x="-3200" data-y="10000" data-rotate="90">
+        <h3>Definition</h3>
+        <pre>
+            <code class="javascript">
+                var App = Ember.Application.create();
+            </code>
+        </pre>
+        <h3>Initialization</h3>
+        <pre>
+            <code class="javascript">
+                App.ready = function() {
+                    /** INIT CODE GOES HERE **/
+                }
+                App.initialize();
+            </code>
+        </pre>
+    </div>
+    <div id="basics-model" class="step" data-x="-1200" data-y="12000" data-rotate="90" data-scale="2">
+        <div class="slideTitle">Model</div>
+        <div class="slideContent">
+            <ul class="justified">
+                <li>Represent the objects the app manages</li>
+                <li>The properties are used for bindings in the template</li>
+            </ul>
+        </div>
+    </div>
+    <div id="basics-model-code" class="step" data-x="-3200" data-y="12000" data-rotate="90">
+        <h3>Definition</h3>
+        <pre>
+            <code class="javascript">
+                App.Movie = Ember.Object.extend({
+                    title : null,
+                    year: null,
+                    rating: 0,
+                    available: null,
+                    imdbLink: null
+                });
+            </code>
+        </pre>
+        <h3>Usage</h3>
+        <pre>
+            <code class="javascript">
+                var movie = App.Movie.create();
+                movie.set('title','The Shawshank Redemption');
+                movie.set('year', 1994);
+                movie.set('rating', 9.2);
+                movie.set('available', true);
+                movie.set('imdbLink', 'http://www.imdb.com/title/tt0111161/');
+            </code>
+        </pre>
+    </div>
+    <div id="basics-view" class="step" data-x="-1200" data-y="14000" data-rotate="90" data-scale="2">
+        <div class="slideTitle">View</div>
+        <div class="slideContent">
+            <ul class="justified">
+                <li>Links the application and the template </li>
+                <li>The properties are used for bindings in the template</li>
+            </ul>
+        </div>
+    </div>
+    <div id="basics-view-code" class="step" data-x="-3200" data-y="14000" data-rotate="90">
+        <h3>Definition</h3>
+        <pre>
+            <code class="javascript">
+                App.Movie = Ember.Object.extend({
+                title : null,
+                year: null,
+                rating: 0,
+                available: null,
+                imdbLink: null
+                });
+            </code>
+        </pre>
+        <h3>Usage</h3>
+        <pre>
+            <code class="javascript">
+                var movie = App.Movie.create();
+                movie.set('title','The Shawshank Redemption');
+                movie.set('year', 1994);
+                movie.set('rating', 9.2);
+                movie.set('available', true);
+                movie.set('imdbLink', 'http://www.imdb.com/title/tt0111161/');
+            </code>
+        </pre>
+    </div>
+    <div id="basics-controller" class="step" data-x="-1200" data-y="16000" data-rotate="90" data-scale="2">
+        <div class="slideTitle">Controller</div>
+        <div class="slideContent">
+            <ul class="justified">
+                <li>Represent the objects the app manages</li>
+                <li>The properties are used for bindings in the template</li>
+            </ul>
+        </div>
+    </div>
+    <div id="basics-controller-code" class="step" data-x="-3200" data-y="16000" data-rotate="90">
+        <h3>Definition</h3>
+        <pre>
+            <code class="javascript">
+                App.Movie = Ember.Object.extend({
+                title : null,
+                year: null,
+                rating: 0,
+                available: null,
+                imdbLink: null
+                });
+            </code>
+        </pre>
+        <h3>Usage</h3>
+        <pre>
+            <code class="javascript">
+                var movie = App.Movie.create();
+                movie.set('title','The Shawshank Redemption');
+                movie.set('year', 1994);
+                movie.set('rating', 9.2);
+                movie.set('available', true);
+                movie.set('imdbLink', 'http://www.imdb.com/title/tt0111161/');
+            </code>
+        </pre>
+    </div>
+    <div id="basics-handlebars" class="step" data-x="-1200" data-y="18000" data-rotate="90" data-scale="2">
+        <div class="slideTitle">Handlebars</div>
+        <div class="slideContent">
+            <ul class="justified">
+                <li>Represent the objects the app manages</li>
+                <li>The properties are used for bindings in the template</li>
+            </ul>
+        </div>
+    </div>
+    <div id="basics-handlebars-code" class="step" data-x="-3200" data-y="18000" data-rotate="90">
+        <h3>Definition</h3>
+        <pre>
+            <code class="javascript">
+                App.Movie = Ember.Object.extend({
+                title : null,
+                year: null,
+                rating: 0,
+                available: null,
+                imdbLink: null
+                });
+            </code>
+        </pre>
+        <h3>Usage</h3>
+        <pre>
+            <code class="javascript">
+                var movie = App.Movie.create();
+                movie.set('title','The Shawshank Redemption');
+                movie.set('year', 1994);
+                movie.set('rating', 9.2);
+                movie.set('available', true);
+                movie.set('imdbLink', 'http://www.imdb.com/title/tt0111161/');
+            </code>
+        </pre>
+    </div>
+    <div id="basics-example1" class="step" data-x="-1200" data-y="20000" data-rotate="180" data-scale="2">
+        <div class="slideTitle">EXAMPLE 1</div>
+    </div>
+    <div id="sections-advanced" class="step" data-x="0" data-y="8000" data-scale="2"></div>
+    <div id="sections-conclusions" class="step" data-x="1200" data-y="8000" data-scale="2"></div>
+
+    <div id="questions" class="step final" data-x="8000" data-y="2000" data-rotate-z="90" data-rotate-y="65" data-scale="5">
+        <h1>¿Questions?</h1>
+    </div>
+    <div id="thank-you" class="step final" data-x="7000" data-y="2000" data-scale=".50">
+        <h1>Thank you !</h1>
+    </div>
+
+</div>
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+-->
+<script src="js/impress.js"></script>
+<script src="js/highlight.pack.js"></script>
+<script>
+    impress().init();
+    hljs.initHighlightingOnLoad();
+</script>
+
+</body>
+</html>
+
+
+
