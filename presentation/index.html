@@ -14,6 +14,7 @@
 
 
     <link href="css/zenburn.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 
     <link rel="shortcut icon" href="favicon.png" />
@@ -52,10 +53,10 @@
        <div class="slideTitle">Ok... so what is <span style="color:#ff7f24">Ember.js</span>?</div>
        <div class="slideContent">
            <ul class="justified">
-               <li>MVC Javascript Framework</li>
-               <li>Rapid Development</li>
-               <li>Enforce Good Practices</li>
-               <li>Maintainable Code</li>
+               <li><i class="icon-ok"></i>MVC Javascript Framework</li>
+               <li><i class="icon-ok"></i>Rapid Development</li>
+               <li><i class="icon-ok"></i>Enforce Good Practices</li>
+               <li><i class="icon-ok"></i>Maintainable Code</li>
            </ul>
        </div>
     </div>
@@ -97,9 +98,9 @@
         <div class="slideTitle">Application</div>
         <div class="slideContent">
             <ul class="justified">
-                <li>Defines the namespace</li>
-                <li>Contains the ember components</li>
-                <li>Controls the lifecycle</li>
+                <li><i class="icon-ok"></i>Defines the namespace</li>
+                <li><i class="icon-ok"></i>Contains the ember components</li>
+                <li><i class="icon-ok"></i>Controls the lifecycle</li>
             </ul>
         </div>
     </div>
@@ -120,12 +121,13 @@
             </code>
         </pre>
     </div>
-    <div id="basics-model" class="step" data-x="-1200" data-y="12000" data-rotate="90" data-scale="2">
+    <div id="basics-model" class="step" data-x="-1200" data-y="12000" data-rotate="90" data-scale="1">
         <div class="slideTitle">Model</div>
         <div class="slideContent">
             <ul class="justified">
-                <li>Represent the objects the app manages</li>
-                <li>The properties are used for bindings in the template</li>
+                <li><i class="icon-ok"></i>Represent objects</li>
+                <li><i class="icon-ok"></i>Define how data is stored</li>
+                <li><i class="icon-ok"></i>Contain no logic</li>
             </ul>
         </div>
     </div>
@@ -158,8 +160,9 @@
         <div class="slideTitle">View</div>
         <div class="slideContent">
             <ul class="justified">
-                <li>Links the application and the template </li>
-                <li>The properties are used for bindings in the template</li>
+                <li><i class="icon-ok"></i>Encapsulates templates</li>
+                <li><i class="icon-ok"></i>Defines the UI</li>
+                <li><i class="icon-ok"></i>Handles user actions</li>
             </ul>
         </div>
     </div>
@@ -167,33 +170,31 @@
         <h3>Definition</h3>
         <pre>
             <code class="javascript">
-                App.Movie = Ember.Object.extend({
-                title : null,
-                year: null,
-                rating: 0,
-                available: null,
-                imdbLink: null
+                App.MoviesView = Ember.View.extend({
+                    templateName: "movies",
+                    baseClass: "table",
+                    additionalClass: "table-hover"
                 });
             </code>
         </pre>
         <h3>Usage</h3>
         <pre>
-            <code class="javascript">
-                var movie = App.Movie.create();
-                movie.set('title','The Shawshank Redemption');
-                movie.set('year', 1994);
-                movie.set('rating', 9.2);
-                movie.set('available', true);
-                movie.set('imdbLink', 'http://www.imdb.com/title/tt0111161/');
+            <code class="html">
+                //js
+                App.moviesView = App.MoviesView.create().append();
+                //html
+                {{#view App.moviesView}}
+                    ...
+                {{/view}}
             </code>
         </pre>
     </div>
-    <div id="basics-controller" class="step" data-x="-1200" data-y="16000" data-rotate="90" data-scale="2">
+    <div id="basics-controller" class="step" data-x="-1200" data-y="16000" data-rotate="90" data-scale="1">
         <div class="slideTitle">Controller</div>
         <div class="slideContent">
             <ul class="justified">
-                <li>Represent the objects the app manages</li>
-                <li>The properties are used for bindings in the template</li>
+                <li><i class="icon-ok"></i>Contain the logic of the application</li>
+                <li><i class="icon-ok"></i>Manage object lists (Array Controller)</li>
             </ul>
         </div>
     </div>
@@ -201,24 +202,23 @@
         <h3>Definition</h3>
         <pre>
             <code class="javascript">
-                App.Movie = Ember.Object.extend({
-                title : null,
-                year: null,
-                rating: 0,
-                available: null,
-                imdbLink: null
+                //Basic Controller
+                App.ApplicationController = Ember.Controller.extend();
+
+                //Array Controller
+                App.MoviesController = Ember.ArrayController.extend({
+                    content : null,
+
+                    init: function(){
+                    this.content = []
+                    }
                 });
             </code>
         </pre>
         <h3>Usage</h3>
         <pre>
             <code class="javascript">
-                var movie = App.Movie.create();
-                movie.set('title','The Shawshank Redemption');
-                movie.set('year', 1994);
-                movie.set('rating', 9.2);
-                movie.set('available', true);
-                movie.set('imdbLink', 'http://www.imdb.com/title/tt0111161/');
+                App.moviesController = App.MoviesController.create();
             </code>
         </pre>
     </div>
@@ -226,33 +226,32 @@
         <div class="slideTitle">Handlebars</div>
         <div class="slideContent">
             <ul class="justified">
-                <li>Represent the objects the app manages</li>
-                <li>The properties are used for bindings in the template</li>
+                <li><i class="icon-ok"></i>Templating engine</li>
+                <li><i class="icon-ok"></i>Associated context</li>
+                <li><i class="icon-ok"></i>Reusable</li>
+                <li><i class="icon-ok"></i>Helpers</li>
             </ul>
         </div>
     </div>
     <div id="basics-handlebars-code" class="step" data-x="-3200" data-y="18000" data-rotate="90">
-        <h3>Definition</h3>
-        <pre>
-            <code class="javascript">
-                App.Movie = Ember.Object.extend({
-                title : null,
-                year: null,
-                rating: 0,
-                available: null,
-                imdbLink: null
-                });
-            </code>
-        </pre>
         <h3>Usage</h3>
         <pre>
-            <code class="javascript">
-                var movie = App.Movie.create();
-                movie.set('title','The Shawshank Redemption');
-                movie.set('year', 1994);
-                movie.set('rating', 9.2);
-                movie.set('available', true);
-                movie.set('imdbLink', 'http://www.imdb.com/title/tt0111161/');
+            <code class="xml">
+                //syntax
+                {{App.myObject.property}}
+
+                //iterate collections
+                {{#each movie in App.moviesController}}
+                    {{movie.title}}
+                {{/each}}
+
+                //conditional
+                {{#if App.myObject.property}}
+                    //...
+                {{/if}}
+
+                //client side actions
+                &lt; a href="#" {{action actionName parameter}} &gt;Click me!&lt; /a&gt;
             </code>
         </pre>
     </div>
@@ -260,14 +259,169 @@
         <div class="slideTitle">EXAMPLE 1</div>
     </div>
     <div id="sections-advanced" class="step" data-x="0" data-y="8000" data-scale="2"></div>
-    <div id="sections-conclusions" class="step" data-x="1200" data-y="8000" data-scale="2"></div>
+    <div id="advanced-router" class="step" data-x="0" data-y="6000" data-rotate="180" data-scale="2">
+        <div class="slideTitle">Router</div>
+        <div class="slideContent">
+            <ul class="justified">
+                <li><i class="icon-ok"></i>Templating engine</li>
+                <li><i class="icon-ok"></i>Associated context</li>
+                <li><i class="icon-ok"></i>Reusable</li>
+                <li><i class="icon-ok"></i>Helpers</li>
+            </ul>
+        </div>
+    </div>
+    <div id="advanced-router-code" class="step" data-x="0" data-y="4000" data-rotate="180">
+        <h3>Usage</h3>
+        <pre>
+            <code class="xml">
+                //syntax
+                {{App.myObject.property}}
 
-    <div id="questions" class="step final" data-x="8000" data-y="2000" data-rotate-z="90" data-rotate-y="65" data-scale="5">
+                //iterate collections
+                {{#each movie in App.moviesController}}
+                {{movie.title}}
+                {{/each}}
+
+                //conditional
+                {{#if App.myObject.property}}
+                //...
+                {{/if}}
+
+                //client side actions
+                &lt; a href="#" {{action actionName parameter}} &gt;Click me!&lt; /a&gt;
+            </code>
+        </pre>
+    </div>
+    <div id="basics-example2" class="step" data-x="0" data-y="2000" data-rotate="180" data-scale="2">
+        <div class="slideTitle">EXAMPLE 2</div>
+    </div>
+    <div id="advanced-computed" class="step" data-x="-2000" data-y="6000" data-rotate="180" data-scale="2">
+        <div class="slideTitle">Computed Properties</div>
+        <div class="slideContent">
+            <ul class="justified">
+                <li><i class="icon-ok"></i>Templating engine</li>
+                <li><i class="icon-ok"></i>Associated context</li>
+                <li><i class="icon-ok"></i>Reusable</li>
+                <li><i class="icon-ok"></i>Helpers</li>
+            </ul>
+        </div>
+    </div>
+    <div id="advanced-computed-code" class="step" data-x="-2000" data-y="4000" data-rotate="180">
+        <h3>Usage</h3>
+        <pre>
+            <code class="xml">
+                //syntax
+                {{App.myObject.property}}
+
+                //iterate collections
+                {{#each movie in App.moviesController}}
+                {{movie.title}}
+                {{/each}}
+
+                //conditional
+                {{#if App.myObject.property}}
+                //...
+                {{/if}}
+
+                //client side actions
+                &lt; a href="#" {{action actionName parameter}} &gt;Click me!&lt; /a&gt;
+            </code>
+        </pre>
+    </div>
+    <div id="advanced-mixins" class="step" data-x="-4000" data-y="6000" data-rotate="180" data-scale="2">
+        <div class="slideTitle">Mixins</div>
+        <div class="slideContent">
+            <ul class="justified">
+                <li><i class="icon-ok"></i>Templating engine</li>
+                <li><i class="icon-ok"></i>Associated context</li>
+                <li><i class="icon-ok"></i>Reusable</li>
+                <li><i class="icon-ok"></i>Helpers</li>
+            </ul>
+        </div>
+    </div>
+    <div id="advanced-mixins-code" class="step" data-x="-4000" data-y="4000" data-rotate="180">
+        <h3>Usage</h3>
+        <pre>
+            <code class="xml">
+                //syntax
+                {{App.myObject.property}}
+
+                //iterate collections
+                {{#each movie in App.moviesController}}
+                {{movie.title}}
+                {{/each}}
+
+                //conditional
+                {{#if App.myObject.property}}
+                //...
+                {{/if}}
+
+                //client side actions
+                &lt; a href="#" {{action actionName parameter}} &gt;Click me!&lt; /a&gt;
+            </code>
+        </pre>
+    </div>
+    <div id="basics-example3" class="step" data-x="-4000" data-y="2000" data-rotate="180" data-scale="2">
+        <div class="slideTitle">EXAMPLE 3</div>
+    </div>
+    <div id="sections-conclusions" class="step" data-x="1200" data-y="8000" data-scale="2"></div>
+    <div id="conclusions-bad" class="step" data-x="3500" data-y="8000" data-rotate="270" data-scale="2">
+        <div class="slideTitle">The Bad</div>
+        <div class="slideContent">
+            <ul class="justified">
+                <li><i class="icon-thumbs-down"></i>Still Not Final</li>
+                <li><i class="icon-thumbs-down"></i>Documentation</li>
+                <li><i class="icon-thumbs-down"></i>Learning Curve</li>
+                <li><i class="icon-thumbs-down"></i>Handlebars</li>
+                <li><i class="icon-thumbs-down"></i>Not modular by design</li>
+                <li><i class="icon-thumbs-down"></i>Performance <a class="link" href="http://jsperf.com/angular-vs-knockout-vs-ember/51" target="new"><i class="icon-external-link"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="conclusions-good" class="step" data-x="5500" data-y="8000" data-rotate="270" data-scale="2">
+        <div class="slideTitle">The Good</div>
+        <div class="slideContent">
+            <ul class="justified">
+                <li><i class="icon-thumbs-up"></i>Productivity</li>
+                <li><i class="icon-thumbs-up"></i>Forces Best Practices <span style="font-size:15px">(MVC, OO, Observer)</span></li>
+                <li><i class="icon-thumbs-up"></i>Bindings</li>
+                <li><i class="icon-thumbs-up"></i>Computed Properties</li>
+                <li><i class="icon-thumbs-up"></i>Handlebars</li>
+                <li><i class="icon-thumbs-up"></i>Community</li>
+                <li><i class="icon-thumbs-up"></i>Performance <a class="link" href="http://jsperf.com/angular-vs-knockout-vs-ember/61" target="new"><i class="icon-external-link"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="resources" class="step" data-x="7500" data-y="8000" data-rotate="270" data-scale="2">
+        <span style="font-size:40px">Resources</span>
+
+        <div class="slideContent">
+            <span style="font-size:35px; text-align: left">Addons</span>
+            <ul class="justified" style="font-size:30px">
+                <li><i class="icon-ok"></i>Ember-data <a class="link" href="https://github.com/emberjs/data" target="new"><i class="icon-external-link"></i></a></li>
+                <li><i class="icon-ok"></i>Flame.js <a class="link" href="https://github.com/flamejs" target="new"><i class="icon-external-link"></i></a></li>
+                <li><i class="icon-ok"></i>Ember-bootstrap <a class="link" href="http://jsperf.com/angular-vs-knockout-vs-ember/61" target="new"><i class="icon-external-link"></i></a></li>
+            </ul>
+            <span style="font-size:35px">Documentation</span>
+            <ul class="justified" style="font-size:30px">
+                <li><i class="icon-ok"></i>API <a class="link" href="http://emberjs.com/api/" target="new"><i class="icon-external-link"></i></a></li>
+                <li><i class="icon-ok"></i>Blogs <a class="link" href="http://tomdale.net/" target="new">Tom Dale</a><a class="link" href="http://www.emberist.com/" target="new">Emberist</a></li>
+                <li><i class="icon-ok"></i>Ember Functions <a class="link" href="http://code418.com/blog/2012/03/08/useful-emberjs-functions/" target="new"><i class="icon-external-link"></i></a></li>
+                <li><i class="icon-ok"></i>Stack Overflow</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="questions" class="step" data-x="8000" data-y="2000" data-rotate-z="90" data-rotate-y="65" data-scale="5">
         <h1>¿Questions?</h1>
     </div>
-    <div id="thank-you" class="step final" data-x="7000" data-y="2000" data-scale=".50">
-        <h1>Thank you !</h1>
+    <div id="thank-you" class="step" data-x="7000" data-y="2000" data-scale=".50">
+        <div class="slideTitle">Thank you!</div>
+        <div class="slideContent">Presentation available in: <br/><i class="icon-github" style="color:#FF7F24"></i><a class="link" href="https://github.com/jasalguero/EmberPresentation">https://github.com/jasalguero/EmberPresentation</a></div>
     </div>
+    <!--<div id="overview" class="step final" data-x="7000" data-y="2000" data-scale="10">
+
+    </div>-->
 
 </div>
 

@@ -403,3 +403,10 @@ border-radius: 6px;
 padding: 0;
 text-align: left;
 }
+
+.link{
+    color:#ff7f24;
+    font-size:25px;
+    background-color: transparent;
+    padding: 10px;
+}
