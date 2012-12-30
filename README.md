@@ -1,4 +1,4 @@
 EmberPresentation
 =================
 
-Ember Presentation Examples
+Ember.js presentation done with impress.js and code for the examples
