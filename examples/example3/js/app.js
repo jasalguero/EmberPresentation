@@ -10,7 +10,12 @@ App.Movie = Ember.Object.extend({
     year: null,
     rating: 0,
     available: null,
-    imdbLink: null
+    imdbLink: null,
+    onSale: function(){
+      return ((this.rating < 4 ) && this.available) ? true : false;
+    }.property("rating", "available")
+
+    //App.router.moviesController.content[3].set('available',false)
 });
 
 
@@ -27,29 +32,57 @@ App.MoviesController = Ember.ArrayController.extend({
     }
 });
 
-App.MovieProfileController = Ember.Controller.extend();
+App.MovieProfileController = Ember.Controller.extend({
+    movie : null
+});
 
 /******************************************************/
 /*              VIEW                                  */
 /******************************************************/
-App.ApplicationView = Ember.View.extend({
-    templateName: "application",
+App.MoviesView = Ember.View.extend({
+    templateName: "movies",
     baseClass: "table"
 });
 
+App.MovieProfileView = Ember.View.extend({
+    templateName: "movieProfile"
+})
+
 
 /******************************************************/
-/*              ROUTER                                */
+/*              ROUTER    ‚                            */
 /******************************************************/
 App.Router = Ember.Router.extend({
     enableLogging:  true,
 
+    goToProfile: Ember.Router.transitionTo('root.movieProfile'),
+    goHome: Ember.Router.transitionTo('root.index'),
+
     root: Ember.Route.extend({
         index: Ember.Route.extend({
-            route: '/'
+            route: '/',
+            connectOutlets: function(router){
+                router.get('applicationController').connectOutlet('movies');
+            }
+        }),
+        movieProfile: Ember.Route.extend({
+            route: '/movie/:id',
+            deserialize:  function(router, context){
+                var movie = router.get('moviesController').findProperty('id', parseInt(context.id));
+                return movie;
+            },
+            serialize:  function(router, context){
+                return {
+                    id: context.id
+                }
+            },
+            connectOutlets: function(router, context){
+                router.get('applicationController').connectOutlet('movieProfile');
+                router.get('movieProfileController').set('movie',context);
+            }
         })
     })
-});
+})
 
 App.ready = function() {
 
@@ -78,9 +111,18 @@ App.ready = function() {
     movie3.set('available', true);
     movie3.set('imdbLink', 'http://www.imdb.com/title/tt0068646/');
 
+    var movie4 = App.Movie.create();
+    movie4.set('id',4);
+    movie4.set('title','SpaceBalls');
+    movie4.set('year', 1972);
+    movie4.set('rating', 2.5);
+    movie4.set('available', true);
+    movie4.set('imdbLink', 'http://www.imdb.com/title/tt0068646/');
+
     App.get('router.moviesController').addObject(movie);
     App.get('router.moviesController').addObject(movie2);
     App.get('router.moviesController').addObject(movie3);
+    App.get('router.moviesController').addObject(movie4);
 
     console.log("finished")
 };

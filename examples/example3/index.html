@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>EXAMPLE 2</title>
+    <title>EXAMPLE 3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,38 +18,21 @@
 
 <script type="text/x-handlebars" data-template-name="application">
 
-    <h1>My Movie List</h1>
-
-    <table {{bindAttr class="view.baseClass"}} id="movieTable">
-    <thead>
-    <tr>
-        <th>Title</th>
-        <th>Rating</th>
-        <th>Available</th>
-    </tr>
-    </thead>
-    {{#each movie in App.router.moviesController}}
-    <tr>
-        <td>{{movie.title}}</td>
-        <td>{{movie.rating}}</td>
-        <td>{{movie.available}}</td>
-    </tr>
-    {{/each}}
-    </table>
+{{outlet}}
 
 </script>
 
 
 <!-- MOVIE LIST TEMPLATE -->
-<!--<script type="text/x-handlebars" data-template-name="movies">
+<script type="text/x-handlebars" data-template-name="movies">
     <h1>My Movie List</h1>
-
     <table {{bindAttr class="view.baseClass"}} id="movieTable">
         <thead>
         <tr>
             <th>Title</th>
             <th>Rating</th>
             <th>Available</th>
+            <th>Special</th>
             <th>Details</th>
         </tr>
         </thead>
@@ -58,11 +41,31 @@
             <td>{{movie.title}}</td>
             <td>{{movie.rating}}</td>
             <td>{{movie.available}}</td>
+            <td>{{movie.onSale}}</td>
             <td><a href="#" {{action goToProfile movie}}<i class="icon-arrow-right icon-white"></i></a></td>
         </tr>
         {{/each}}
     </table>
-</script>-->
+</script>
+
+<!-- MOVIE PROFILE TEMPLATE -->
+<script type="text/x-handlebars" data-template-name="movieProfile">
+    {{#with App.router.movieProfileController.movie}}
+    <div class="row">
+        <div class="span10">
+            <h1>{{title}}</h1>
+        </div>
+        <div class="span2">
+            <h2><a {{action goHome href=true}}>Back</a></h2>
+        </div>
+    </div>
+
+    <h3>Year: {{year}}</h3>
+    <h3>Rating: {{rating}}</h3>
+    <h3>Imdb</h3>
+    <iframe {{bindAttr src="imdbLink"}} class="span12" style="height:500px;"/>
+    {{/with}}
+</script>
 
 
 <!-- LOAD JAVASCRIPT -->
