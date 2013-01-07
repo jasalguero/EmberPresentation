@@ -128,6 +128,7 @@
                 <li><i class="icon-ok"></i>Represent objects</li>
                 <li><i class="icon-ok"></i>Define how data is stored</li>
                 <li><i class="icon-ok"></i>Contain no logic</li>
+                <li><i class="icon-ok"></i>Expanded by Ember Data</li>
             </ul>
         </div>
     </div>
@@ -264,31 +265,37 @@
         <div class="slideContent">
             <ul class="justified">
                 <li><i class="icon-ok"></i>Manages the state of the application</li>
-                <li><i class="icon-ok"></i>Initialize and use the controllers and views</li>
-                <li><i class="icon-ok"></i>Serialize/Deserialize parametrized urls</li>
-                <li><i class="icon-ok"></i>Injects views in templates when state changes</li>
+                <li><i class="icon-ok"></i>Initialize controllers and views</li>
+                <li><i class="icon-ok"></i>Serialize/Deserialize urls</li>
+                <li><i class="icon-ok"></i>Injects views in templates</li>
             </ul>
         </div>
     </div>
     <div id="advanced-router-code" class="step" data-x="0" data-y="4000" data-rotate="180">
-        <h3>Usage</h3>
+        <h3>Definition</h3>
         <pre>
-            <code class="xml">
-                //syntax
-                {{App.myObject.property}}
+            <code class="javascript">
+                App.Router = Ember.Router.extend({
 
-                //iterate collections
-                {{#each movie in App.moviesController}}
-                {{movie.title}}
-                {{/each}}
-
-                //conditional
-                {{#if App.myObject.property}}
-                //...
-                {{/if}}
-
-                //client side actions
-                &lt; a href="#" {{action actionName parameter}} &gt;Click me!&lt; /a&gt;
+                    root: Ember.Route.extend({
+                        index: Ember.Route.extend({
+                            route: '/'
+                        }),
+                        user: Ember.Route.extend({
+                            route: '/users/:idUser',
+                            deserialize:  function(router, context){
+                                var user = //get user based on the idUser contained in the context
+                                //return user to put it in the context
+                                return user;
+                            },
+                            serialize:  function(router, context){
+                                return {
+                                    idUser: //obtain id user from the context
+                                 }
+                            },
+                        })
+                    })
+                });
             </code>
         </pre>
     </div>
@@ -299,69 +306,99 @@
         <div class="slideTitle">Computed Properties</div>
         <div class="slideContent">
             <ul class="justified">
-                <li><i class="icon-ok"></i>Templating engine</li>
-                <li><i class="icon-ok"></i>Associated context</li>
-                <li><i class="icon-ok"></i>Reusable</li>
-                <li><i class="icon-ok"></i>Helpers</li>
+                <li><i class="icon-ok"></i>Composition of properties</li>
+                <li><i class="icon-ok"></i>Cached</li>
+                <li><i class="icon-ok"></i>Setters</li>
+                <li><i class="icon-ok"></i>Observers</li>
             </ul>
         </div>
     </div>
     <div id="advanced-computed-code" class="step" data-x="-2000" data-y="4000" data-rotate="180">
-        <h3>Usage</h3>
+        <h3>Definition</h3>
         <pre>
-            <code class="xml">
-                <!--syntax-->
-                {{App.myObject.property}}
+            <code class="javascript">
+                //Model computed property
+                App.Movie = Ember.Object.extend({
+                    ...
+                    onSale: function(){
+                        return ((this.rating < 4 ) && this.available) ? true : false;
+                    }.property("rating", "available")
+                    ...
+                });
 
-                //iterate collections
-                {{#each movie in App.moviesController}}
-                {{movie.title}}
-                {{/each}}
-
-                //conditional
-                {{#if App.myObject.property}}
-                //...
-                {{/if}}
-
-                //client side actions
-                &lt; a href="#" {{action actionName parameter}} &gt;Click me!&lt; /a&gt;
+                //Controller aggregated computed property
+                App.MoviesController = Ember.ArrayController.extend({
+                    ...
+                    availableTitles: function(){
+                        return this.content.filterProperty('available',true).get('length');
+                    }.property('content.@each.available'),
+                    ...
+                }
             </code>
         </pre>
     </div>
-    <div id="advanced-mixins" class="step" data-x="-4000" data-y="6000" data-rotate="180" data-scale="2">
+    <div id="advanced-mixins" class="step" data-x="-4200" data-y="6000" data-rotate="180" data-scale="2">
         <div class="slideTitle">Mixins</div>
         <div class="slideContent">
             <ul class="justified">
-                <li><i class="icon-ok"></i>Templating engine</li>
-                <li><i class="icon-ok"></i>Associated context</li>
+                <li><i class="icon-ok"></i>Provides functionality to multiple classes</li>
+                <li><i class="icon-ok"></i>Applicable to any object</li>
                 <li><i class="icon-ok"></i>Reusable</li>
-                <li><i class="icon-ok"></i>Helpers</li>
             </ul>
         </div>
     </div>
-    <div id="advanced-mixins-code" class="step" data-x="-4000" data-y="4000" data-rotate="180">
-        <h3>Usage</h3>
+    <div id="advanced-mixins-code" class="step" data-x="-4200" data-y="4000" data-rotate="180">
+        <h3>Definition</h3>
         <pre>
-            <code class="xml">
-                //syntax
-                {{App.myObject.property}}
+            <code class="javascript">
+                //Normal Object
+                App.Client = Ember.Object.extend(){
+                    name: null
+                    ...
+                }
 
-                //iterate collections
-                {{#each movie in App.moviesController}}
-                {{movie.title}}
-                {{/each}}
-
-                //conditional
-                {{#if App.myObject.property}}
-                //...
-                {{/if}}
-
-                //client side actions
-                &lt; a href="#" {{action actionName parameter}} &gt;Click me!&lt; /a&gt;
+                //Our Mixins
+                App.GeekMixin = Ember.Mixin.create(){
+                    favouriteMovie: null,
+                    init: function() {
+                        this._super();
+                        this.set("favouriteMovie", "Star Wars");
+                    }
+                }
+                App.HipsterMixin = Ember.Mixin.create(){
+                    favouriteDirector: null,
+                    init: function() {
+                        this._super();
+                        this.set("favouriteDirector", "Aronofsky");
+                    }
+                }
             </code>
         </pre>
     </div>
-    <div id="basics-example3" class="step" data-x="-4000" data-y="2000" data-rotate="180" data-scale="2">
+    <div id="advanced-mixins-code2" class="step" data-x="-4200" data-y="-2000" data-rotate="180">
+        <h3>Usage</h3>
+        <pre>
+            <code class="javascript">
+                //Default initialization
+                var clientA = App.Client.create(GeekMixin,HipsterMixin);
+                clientA.set('name','Joe');
+
+                clientA.get('favouriteMovie'); // Star Wars
+
+                //Change default values
+                var clientB = App.Client.create(GeekMixin,HipsterMixin, {
+                    init:function(){
+                        this._super();
+                        this.set('favouriteMovie', 'Star Trek');
+                    }
+                });
+
+                clientB.get('favouriteMovie', 'Star Trek');
+
+            </code>
+        </pre>
+    </div>
+    <div id="basics-example3" class="step" data-x="-4200" data-y="-4000" data-rotate="180" data-scale="2">
         <div class="slideTitle">EXAMPLE 3</div>
     </div>
     <div id="sections-conclusions" class="step" data-x="1200" data-y="8000" data-scale="2"></div>
@@ -414,7 +451,7 @@
     </div>
 
     <div id="questions" class="step" data-x="9500" data-y="8000" data-rotate-z="90" data-rotate-y="65" data-scale="5">
-        <h1>¿Questions?</h1>
+        <h1>Questions ¿?</h1>
     </div>
     <div id="thank-you" class="step" data-x="10500" data-y="10000" data-z="-5000" data-rotate-z="180" data-rotate-y="60" data-scale=".50">
         <div class="slideTitle">Thank you!</div>

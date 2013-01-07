@@ -12,7 +12,7 @@ App.Movie = Ember.Object.extend({
     available: null,
     imdbLink: null,
     onSale: function(){
-      return ((this.rating < 4 ) && this.available) ? true : false;
+        return ((this.rating < 4 ) && this.available) ? true : false;
     }.property("rating", "available")
 
     //App.router.moviesController.content[3].set('available',false)
@@ -25,15 +25,21 @@ App.Movie = Ember.Object.extend({
 App.ApplicationController = Ember.Controller.extend();
 
 App.MoviesController = Ember.ArrayController.extend({
-    content : null,
+    content: null,
+
+    availableTitles: function(){
+        return this.content.filterProperty('available',true).get('length');
+    }.property('content.@each.available'),
+
+    //App.router.moviesController.content[0].set('available',false)
 
     init: function(){
             this.content = []
     }
 });
 
-App.MovieProfileController = Ember.Controller.extend({
-    movie : null
+App.MovieProfileController = Ember.ObjectController.extend({
+    content : null
 });
 
 /******************************************************/
@@ -55,9 +61,6 @@ App.MovieProfileView = Ember.View.extend({
 App.Router = Ember.Router.extend({
     enableLogging:  true,
 
-    goToProfile: Ember.Router.transitionTo('root.movieProfile'),
-    goHome: Ember.Router.transitionTo('root.index'),
-
     root: Ember.Route.extend({
         index: Ember.Route.extend({
             route: '/',
@@ -77,11 +80,16 @@ App.Router = Ember.Router.extend({
                 }
             },
             connectOutlets: function(router, context){
+                router.get('movieProfileController').set('content',context);
                 router.get('applicationController').connectOutlet('movieProfile');
-                router.get('movieProfileController').set('movie',context);
+
             }
         })
-    })
+    }),
+
+    goToProfile: Ember.Router.transitionTo('root.movieProfile'),
+    goHome: Ember.Router.transitionTo('root.index')
+
 })
 
 App.ready = function() {
@@ -113,11 +121,11 @@ App.ready = function() {
 
     var movie4 = App.Movie.create();
     movie4.set('id',4);
-    movie4.set('title','SpaceBalls');
-    movie4.set('year', 1972);
+    movie4.set('title','Troll 2');
+    movie4.set('year', 1990);
     movie4.set('rating', 2.5);
     movie4.set('available', true);
-    movie4.set('imdbLink', 'http://www.imdb.com/title/tt0068646/');
+    movie4.set('imdbLink', 'http://www.imdb.com/title/tt0105643/');
 
     App.get('router.moviesController').addObject(movie);
     App.get('router.moviesController').addObject(movie2);

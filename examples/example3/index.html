@@ -26,13 +26,14 @@
 <!-- MOVIE LIST TEMPLATE -->
 <script type="text/x-handlebars" data-template-name="movies">
     <h1>My Movie List</h1>
+    <h3><span style="color:red">{{App.router.moviesController.availableTitles}} movies available</span></h3>
     <table {{bindAttr class="view.baseClass"}} id="movieTable">
         <thead>
         <tr>
             <th>Title</th>
             <th>Rating</th>
             <th>Available</th>
-            <th>Special</th>
+            <th>onSale</th>
             <th>Details</th>
         </tr>
         </thead>
@@ -50,7 +51,7 @@
 
 <!-- MOVIE PROFILE TEMPLATE -->
 <script type="text/x-handlebars" data-template-name="movieProfile">
-    {{#with App.router.movieProfileController.movie}}
+    {{#with App.router.movieProfileController.content}}
     <div class="row">
         <div class="span10">
             <h1>{{title}}</h1>
@@ -63,7 +64,7 @@
     <h3>Year: {{year}}</h3>
     <h3>Rating: {{rating}}</h3>
     <h3>Imdb</h3>
-    <iframe {{bindAttr src="imdbLink"}} class="span12" style="height:500px;"/>
+    <iframe {{bindAttr src="imdbLink"}} style="width:1200px; height:400px;"/>
     {{/with}}
 </script>
 
