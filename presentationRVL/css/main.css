@@ -482,6 +482,15 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
     box-shadow: none;
 }
 
+.reveal a:not(.image), .reveal a:not(.image):hover{
+    color:#ff7f24;
+}
+
 .reveal code {
-    max-height: 600px
+    max-height: 1000px;
+    max-widht: 1200px;
+}
+
+.pre .small code {
+    font-size: 20pt;
 }
