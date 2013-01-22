@@ -25,7 +25,7 @@
 
 <!-- MOVIE LIST TEMPLATE -->
 <script type="text/x-handlebars" data-template-name="movies">
-    <h1>My Movie List</h1>
+    <h1>My Video Club</h1>
     <h3><span style="color:red">{{App.router.moviesController.availableTitles}} movies available</span></h3>
     <table {{bindAttr class="view.baseClass"}} id="movieTable">
         <thead>
@@ -34,6 +34,7 @@
             <th>Rating</th>
             <th>Available</th>
             <th>onSale</th>
+            <th>Action</th>
             <th>Details</th>
         </tr>
         </thead>
@@ -43,6 +44,13 @@
             <td>{{movie.rating}}</td>
             <td>{{movie.available}}</td>
             <td>{{movie.onSale}}</td>
+            <td>
+                {{#if movie.available}}
+                    <button class="btn btn-success" {{action rent movie target="view"}}>Rent!</button>
+                {{else}}
+                    <button class="btn btn-danger" {{action return movie target="view"}}>Return</button>
+                {{/if}}
+            </td>
             <td><a href="#" {{action goToProfile movie}}<i class="icon-arrow-right icon-white"></i></a></td>
         </tr>
         {{/each}}

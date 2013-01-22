@@ -45,17 +45,44 @@
                         <span style="line-height: 221px;" class="huge">ember.js</span>
                     </div>
                     <span class="subtitle clear">A <i><u>very</u></i> gentle introduction</span>
+
+                    <aside class="notes">
+                        Intro
+                    </aside>
 				</section>
+
+                <!-- DISCLAIMER -->
+                <section>
+                    <i class="icon-warning-sign pull-left" style="color:#EFB500; font-size:250px"></i>
+                    <span class="huge">Disclaimer</span>
+
+                    <aside class="notes">
+                        - Point of view of developer
+                        - Not to take strictly
+                        - Breaking changes
+                    </aside>
+                </section>
 
                 <!-- WHAT IS -->
 				<section>
                     <section>
-					    <span class="big">What is <span class='orange'>Ember.js</span>?</span>
+					    <span class="huge">What is <span class='orange'>Ember.js</span>?</span>
+
+                        <aside class="notes">
+                            - Many frameworks: Backbone, Angular, Batman, Knockout
+                            - Proper data models, client-side rendering
+                        </aside>
                     </section>
+
                     <section>
                         <div class="title bigish">A bit of history...</div>
                         <img src="images/history.png"/>
+                        <aside class="notes">
+                            - Yehuda Katz -> Member of RoR and Jquery core teams
+                            - Design inspired by Rails and Cocoa
+                        </aside>
                     </section>
+
                     <section>
                         <div class="title bigish">Ok... so what is <span class='orange'>Ember.js</span>?</div>
                         <div class="slideContent normal">
@@ -66,6 +93,11 @@
                                 <li class="fragment"><i class="icon-ok"></i>Maintainable Code</li>
                             </ul>
                         </div>
+
+                        <aside class="notes">
+                            - Heavily opinionated (framework vs library)
+                            - Design inspired by Rails and Cocoa
+                        </aside>
                     </section>
 				</section>
 
@@ -109,24 +141,30 @@
                             <ul>
                                 <li><i class="icon-ok"></i>Defines the namespace</li>
                                 <li><i class="icon-ok"></i>Manages other components</li>
-                                <li><i class="icon-ok"></i>Controls the lifecycle</li>
+                                <li><i class="icon-ok"></i>Orchestrates the lifecycle</li>
                             </ul>
                         </div>
+
+                        <aside class="notes">
+                            - Namespace -> Clean separation
+                            - Components accessed through App.
+                            - Lifecycle -> Bindings
+                        </aside>
                     </section>
                     <section>
                         <span class="title fontNormal">DEFINITION</span>
                         <pre>
                             <code contenteditable class="javascript">
-    var App = Ember.Application.create();
+    var YourApp = Ember.Application.create();
                             </code>
                         </pre>
                         <span class="title fontNormal">INITIALIZATION</span>
                         <pre>
                             <code contenteditable class="javascript">
-    App.ready = function() {
+    YourApp.ready = function() {
     /** INIT CODE GOES HERE **/
     }
-    App.initialize();
+    YourApp.initialize();
                             </code>
                         </pre>
                     </section>
@@ -140,7 +178,6 @@
                             <ul>
                                 <li><i class="icon-ok"></i>Represent objects</li>
                                 <li><i class="icon-ok"></i>Define how data is stored</li>
-                                <li><i class="icon-ok"></i>Contain no logic</li>
                                 <li><i class="icon-ok"></i>Expanded by Ember Data</li>
                             </ul>
                         </div>
@@ -577,7 +614,8 @@
                             <li><i class="icon-ok"></i>Ember-bootstrap <a class="link" href="http://jsperf.com/angular-vs-knockout-vs-ember/61" target="new"><i class="icon-external-link"></i></a></li>
                         </ul>
                     </div>
-                    <br/>
+                </section>
+                <section>
                     <div class="title bigish">Resources</div>
                     <div class="slideContent normal">
                         <ul>
@@ -585,6 +623,7 @@
                             <li><i class="icon-ok"></i>Blogs <a class="link" href="http://tomdale.net/" target="new">(Tom Dale)</a>, <a class="link" href="http://www.emberist.com/" target="new">(Emberist)</a></li>
                             <li><i class="icon-ok"></i>Ember Functions <a class="link" href="http://code418.com/blog/2012/03/08/useful-emberjs-functions/" target="new"><i class="icon-external-link"></i></a></li>
                             <li><i class="icon-ok"></i>Stack Overflow</li>
+                            <li><i class="icon-ok"></i><i>(the)</i> Book <a class="link" href="http://www.noelrappin.com/"><i class="icon-external-link"></i></a></li>
                         </ul>
                     </div>
                 </section>
@@ -631,6 +670,14 @@
 					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
+
+            Reveal.addEventListener( 'slidechanged', function( event ) {
+                // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+                var notes = event.currentSlide.querySelector(".notes");
+                if(notes) {
+                    console.info(notes.innerHTML.replace(/\n\s+/g,'\n'));
+                }
+            } );
 
 		</script>
 

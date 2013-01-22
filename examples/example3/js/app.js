@@ -27,6 +27,10 @@ App.ApplicationController = Ember.Controller.extend();
 App.MoviesController = Ember.ArrayController.extend({
     content: null,
 
+    sortProperties: ['rating'],
+
+    sortAscending: false,
+
     availableTitles: function(){
         return this.content.filterProperty('available',true).get('length');
     }.property('content.@each.available'),
@@ -47,7 +51,17 @@ App.MovieProfileController = Ember.ObjectController.extend({
 /******************************************************/
 App.MoviesView = Ember.View.extend({
     templateName: "movies",
-    baseClass: "table"
+    baseClass: "table",
+
+    rent: function(event){
+        var movie = event.context;
+        movie.set('available',false);
+    },
+
+    return: function(event){
+        var movie = event.context;
+        movie.set('available',true);
+    }
 });
 
 App.MovieProfileView = Ember.View.extend({
