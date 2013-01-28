@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e118e4de-9fe0-409c-9180-ec378c4c220d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/example1/js/app.js" afterPath="$PROJECT_DIR$/examples/example1/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentationRVL/index.html" afterPath="$PROJECT_DIR$/presentationRVL/index.html" />
+    </list>
+    <list id="8e6c7a05-586e-4d0c-804c-c091b799bf24" name="Not tracked" comment="" />
+    <ignored path="EmberPresentation.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358858350350" ignored="false" />
+    <file path="$PROJECT_DIR$/docs/examples/hero.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355743920059" ignored="false" />
+    <file path="$PROJECT_DIR$/docs/examples/fluid.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355743920059" ignored="false" />
+    <file path="$PROJECT_DIR$/docs/examples/carousel.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355743920059" ignored="false" />
+    <file path="$PROJECT_DIR$/docs/examples/sticky-footer.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355743920059" ignored="false" />
+    <file path="$PROJECT_DIR$/docs/examples/starter-template.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355743920059" ignored="false" />
+    <file path="$PROJECT_DIR$/docs/examples/signin.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355743920059" ignored="false" />
+    <file path="$PROJECT_DIR$/docs/examples/marketing-narrow.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355743920059" ignored="false" />
+    <file path="$PROJECT_DIR$/docs/examples/marketing-alternate.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355743920060" ignored="false" />
+    <file path="/index.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358865574543" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355934820527" ignored="false" />
+    <file path="/app.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358818122164" ignored="false" />
+    <file path="/style.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355842540560" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/webapp/js/postPageLoad.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/webapp/WEB-INF/jsp/blocks/layer/feature_hint.jsp" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355754604253" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/webapp/WEB-INF/jsp/blocks/deal/display_deal_leftbar.jsp" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/envs/sschroeter/frontend.properties" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755208721" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/envs/test/frontend.properties" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755208721" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/envs/jsalguero/frontend.properties" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755208721" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/envs/afehrmann/frontend.properties" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755208721" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/envs/default/frontend.properties" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/java/de/stardeals/frontend/configuration/Config.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755208721" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/java/de/stardeals/frontend/stripes/action/PaymentConfirmationBean.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/webapp/WEB-INF/jsp/pages/payment/payment.jsp" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755208722" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/webapp/WEB-INF/groupon.tld" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755208720" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/envs/default/ehcache.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/pom.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755208720" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/webapp/WEB-INF/web.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/envs/default/log4j.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/envs/default/28/frontend.properties" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755208721" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/envs/jsalguero/log4j.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755208721" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/java/de/stardeals/frontend/service/impl/CityFrontendServiceImpl.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755208722" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/target/generated-resources-tmp/default/frontend.properties" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755286538" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/target/generated-resources/ehcache.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755286538" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/target/generated-resources/log4j.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755286538" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/target/generated-resources/environment-context.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755286538" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/target/generated-resources/frontend.properties" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755286538" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/target/generated-resources/securityPolicy.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755286538" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/conf/target/classes/frontend.properties" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355755286538" ignored="false" />
+    <file path="/a.dummy" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358816760444" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/webapp/css/RTL.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653849" ignored="false" />
+    <file path="/RTL.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355759830517" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/java/de/groupon/frontend/voucher/gifting/service/BuyAsAGiftValidationService.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355759665274" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/java/de/groupon/frontend/voucher/gifting/service/GiftOptionsService.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355759665274" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/java/de/stardeals/frontend/stripes/action/PaymentConfirmationBean.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355930381378" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/webapp/WEB-INF/jsp/blocks/sidebar/index.jsp" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355930318889" ignored="false" />
+    <file path="/index.jsp" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355849352602" ignored="false" />
+    <file path="/.gitignore" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355868941629" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/webapp/css/IE7.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/test/resources/testDealCreationContext.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/java/de/groupon/frontend/voucher/gifting/model/view/OrderGiftOptionViewBuilder.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/java/de/stardeals/frontend/stripes/interceptors/LandingPageInterceptor.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355928653850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/webapp/WEB-INF/jsp/blocks/deal/display_deal_leftbar.jsp" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357558115802" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/java/de/stardeals/facade/deal/DealFacade.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357558206793" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/webapp/js/Groupon/tracking/ga_tracking.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357558115802" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/java/de/stardeals/frontend/stripes/action/LoginActionBean.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355930381378" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/pom.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357558206793" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/java/de/stardeals/frontend/stripes/action/RegistrationActionBean.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355930381378" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/webapp/js/postPageLoad.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357558115802" ignored="false" />
+    <file path="/fragment.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355933741743" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/java/de/stardeals/frontend/filter/BCookieFilter.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357558115802" ignored="false" />
+    <file path="/BCookieFilter.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355934670491" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/resources/urlmapping.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355934660774" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/webapp/js/facebook.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355934660774" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/webapp/js/mydata.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355934660774" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/webapp/js/jquery/jquery.form.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355934660774" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/webapp/js/mapInteraction.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355934660774" ignored="false" />
+    <file path="$PROJECT_DIR$/../../INTL/frontend/src/main/java/de/groupon/frontend/i18n/web/I18nController.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1355934660774" ignored="false" />
+    <file path="/main.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358169669853" ignored="false" />
+    <file path="/sc.min.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1356381950474" ignored="false" />
+    <file path="$PROJECT_DIR$/../Play-Framework-Test/conf/application.conf" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1356394705742" ignored="false" />
+    <file path="$PROJECT_DIR$/../Play-Framework-Test/public/stylesheets/main.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1356394763731" ignored="false" />
+    <file path="/font-awesome.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1356714349523" ignored="false" />
+    <file path="$PROJECT_DIR$/../hablog/play2/public/css/theme.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357069083737" ignored="false" />
+    <file path="$PROJECT_DIR$/../hablog/play2/app/views/blog.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357070472059" ignored="false" />
+    <file path="/blog.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357089420238" ignored="false" />
+    <file path="$PROJECT_DIR$/../hablog/play2/public/css/pmt_main.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357070411229" ignored="false" />
+    <file path="/pmt_main.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357069992624" ignored="false" />
+    <file path="$PROJECT_DIR$/../hablog/play2/app/views/index.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357229035723" ignored="false" />
+    <file path="$PROJECT_DIR$/../hablog/play2/app/views/blog_post.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357070503183" ignored="false" />
+    <file path="$PROJECT_DIR$/../hablog/play2/public/css/theme_pmt/theme.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357089091966" ignored="false" />
+    <file path="/theme.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357089090839" ignored="false" />
+    <file path="$PROJECT_DIR$/../hablog/play2/public/css/theme_pmt/bootstrap.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357089116005" ignored="false" />
+    <file path="/bootstrap.css" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357089114509" ignored="false" />
+    <file path="$PROJECT_DIR$/../hablog/play2/public/js/theme_pmt/myscript.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357219588164" ignored="false" />
+    <file path="/myscript.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357092309444" ignored="false" />
+    <file path="$PROJECT_DIR$/../hablog/play2/public/js/app.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357219639813" ignored="false" />
+    <file path="$PROJECT_DIR$/../js-assessment/app/bestPractices.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357094729017" ignored="false" />
+    <file path="/bestPractices.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357094727292" ignored="false" />
+    <file path="$PROJECT_DIR$/../js-assessment/tests/app/bestPractices.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357094336340" ignored="false" />
+    <file path="$PROJECT_DIR$/../js-assessment/app/arrays.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357095640724" ignored="false" />
+    <file path="/arrays.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357095636679" ignored="false" />
+    <file path="/test.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357314537032" ignored="false" />
+    <file path="/README.md" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357321244653" ignored="false" />
+    <file path="$PROJECT_DIR$/../../frontend/src/main/java/de/stardeals/frontend/filter/BCookieFilter.java" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1357558293301" ignored="false" />
+    <file path="/dummy.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358166804645" ignored="false" />
+    <file path="$PROJECT_DIR$/../../deal-enhancer-ws-journal/label/src/main/resources/www/index.html" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358858106831" ignored="false" />
+    <file path="$PROJECT_DIR$/../../deal-enhancer-ws-journal/label/src/main/resources/www/js/dev_helper.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358858042157" ignored="false" />
+    <file path="/dev_helper.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358858041059" ignored="false" />
+    <file path="$PROJECT_DIR$/../../deal-enhancer-ws-journal/label/src/main/resources/www/js/app.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358858054715" ignored="false" />
+    <file path="$PROJECT_DIR$/../../deal-enhancer-ws-journal/label/target/scala-2.9.2/classes/www/js/dev_helper.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358858095350" ignored="false" />
+    <file path="$PROJECT_DIR$/../../deal-enhancer-ws-journal/label/target/scala-2.9.2/classes/www/js/app.js" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358858095350" ignored="false" />
+    <file path="$PROJECT_DIR$/../../deal-enhancer-ws-journal/pom.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358860192586" ignored="false" />
+    <file path="$PROJECT_DIR$/../../deal-enhancer-ws-journal/label/pom.xml" changelist="e118e4de-9fe0-409c-9180-ec378c4c220d" time="1358860192586" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="EmberPresentation" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/example3/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="27" selection-start="3139" selection-end="3139" vertical-scroll-proportion="2.5523417">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/example3/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="54" selection-start="1917" selection-end="1922" vertical-scroll-proportion="-10.064516">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#h3#0;n#script#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/presentation/index2.html" />
+        <option value="$PROJECT_DIR$/presentation/css/sc.min.css" />
+        <option value="$PROJECT_DIR$/presentation/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/presentation/css/main.css" />
+        <option value="$PROJECT_DIR$/presentation/test.xml" />
+        <option value="$PROJECT_DIR$/examples/example2/js/app.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/presentation/index.html" />
+        <option value="$PROJECT_DIR$/presentationRVL/css/main.css" />
+        <option value="$PROJECT_DIR$/examples/example1/index.html" />
+        <option value="$PROJECT_DIR$/examples/example2/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/libs/handlebars-1.0.rc.2.js" />
+        <option value="$PROJECT_DIR$/examples/example3/index.html" />
+        <option value="$PROJECT_DIR$/presentationRVL/index.html" />
+        <option value="$PROJECT_DIR$/examples/example1/js/app.js" />
+        <option value="$PROJECT_DIR$/examples/example3/js/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectState">
+    <option name="privateKey" value="3082025b02010002818100d8a41e81cc08948e0f578bfdcb90be6e4336e085a28048b43911ff1373c5f71151ea9875c0979398a01c3759d32811c20cb75f6653446ef1219c7a32e13c29e3f2f9e6cf5abf91dca831ebb065a7e2aef4c9d54d92e635428441108373c36afca1971e937d6ffc1cb80cc74b3faedd01ac388639884a3ec3b0f431550fd7426b02030100010281800183941b001c073dbee9b3b6c057709d40a6ff86af8e09f4087a11b84714d9172be561cf60db2e52e0bb91bf74f450bb746f4ba1616f96fee4673d8b617b94275a5c106a0009e924881c0bd0d4a768f914be8ce17ccce42453a5efae7d5aaeb8bb176a46270fe22ad4cdf6e76bc90143077ad659efdfdd4cbc51eaa3e0fbf9f1024100fedff58dc6aa78e4753a0868473c4809abee986be795e578d08588c4023a5262fb966a21433ae4884567c19d525a795201b0d55e1ccf9686b2def3bbde9295f5024100d998f374bfbb013f0b84c9146ec65ce2ed64f31427307bd2c33c76bdbf2234e02e4e31e49fea9f908d078f866a4bfa958a2f7887736a59a649bc63b8b424dadf02407750b0cb662d77dabb662779699fb6b9905b69cf59e2ba420c9bf6a28bc871b914be1d80e4d0351bf621d469a99be11f9adb0587c1450cda91f1fd77fd81f1e10240204c93d6c09f01905a255bb3acbdc50bea3111e3ebed46740286f7193345e093664c351bbaa1190e5be0c36d305a16d81baaf0392ae89e66108be641847bf401024043fc9fcdcbebbe7f6fc6537afcd3cda1fec41a605a6a44e8fb5d1ed74389fee294e6ee06b216381f25d3df6709e2a098ed7e685eaee5af696bf6e68ac0398956" />
+    <option name="publicKey" value="30818902818100d8a41e81cc08948e0f578bfdcb90be6e4336e085a28048b43911ff1373c5f71151ea9875c0979398a01c3759d32811c20cb75f6653446ef1219c7a32e13c29e3f2f9e6cf5abf91dca831ebb065a7e2aef4c9d54d92e635428441108373c36afca1971e937d6ffc1cb80cc74b3faedd01ac388639884a3ec3b0f431550fd7426b0203010001" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentationRVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentationRVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentationRVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentationRVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmberPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../frontend-configuration" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/presentationRVL/lib/css" />
+      <recent name="$PROJECT_DIR$/presentationRVL" />
+      <recent name="$PROJECT_DIR$/presentationRVL/css" />
+      <recent name="$PROJECT_DIR$/presentationRVL/lib" />
+      <recent name="$PROJECT_DIR$/presentationRVL/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/presentationRVL/images" />
+      <recent name="$PROJECT_DIR$/presentationRVL/lib" />
+      <recent name="$PROJECT_DIR$/presentationRVL" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e118e4de-9fe0-409c-9180-ec378c4c220d" name="Default" comment="" />
+      <changelist id="8e6c7a05-586e-4d0c-804c-c091b799bf24" name="Not tracked" comment="" />
+      <created>1355742964442</created>
+      <timeSpent>20928000</timeSpent>
+      <updated>1355742964442</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First Example">
+      <created>1355837167550</created>
+      <updated>1355837167550</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added View to First Example&#10;">
+      <created>1355868905955</created>
+      <updated>1355868905955</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added View to First Example&#10;">
+      <created>1355869025815</created>
+      <updated>1355869025815</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added final structure and conclusions">
+      <created>1356832908511</created>
+      <updated>1356832908511</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added final structure and conclusions">
+      <created>1357520248705</created>
+      <updated>1357520248705</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Migrated presentation to reveal.js">
+      <created>1357921333194</created>
+      <updated>1357921333195</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31329924" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27795786" sideWeight="0.9580499" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrated presentation to reveal.js" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="First Example" />
+    <MESSAGE value="Added View to First Example&#10;" />
+    <MESSAGE value="Added final structure and conclusions" />
+    <MESSAGE value="Migrated presentation to reveal.js" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/ember-1.0.0-pre.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18016" column="0" selection-start="506766" selection-end="506766" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentationRVL/css/print/paper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentationRVL/lib/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="45" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentationRVL/lib/css/font-awesome-ie7.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1339832222000" expanded="false" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="457" column="243" selection-start="19666" selection-end="19950" vertical-scroll-proportion="3.9679012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentationRVL/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="20" selection-start="1297" selection-end="1297" vertical-scroll-proportion="-5.727705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentationRVL/js/reveal.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="15472" selection-start="15629" selection-end="15629" vertical-scroll-proportion="0.02097902">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentationRVL/js/reveal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1616" column="8" selection-start="46339" selection-end="46339" vertical-scroll-proportion="0.3916084">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentationRVL/css/theme/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentationRVL/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="247" column="0" selection-start="9995" selection-end="9995" vertical-scroll-proportion="-24.255814">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#1;n#section#17;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#1;n#section#21;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/example1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="22" selection-start="1230" selection-end="1230" vertical-scroll-proportion="-13.894737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/example1/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="21" selection-start="951" selection-end="965" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/example2/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="14" selection-start="2473" selection-end="2483" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/example2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="64" selection-start="753" selection-end="764" vertical-scroll-proportion="-12.774194">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/example3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="54" selection-start="1917" selection-end="1922" vertical-scroll-proportion="-10.064516">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#h3#0;n#script#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/example3/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="27" selection-start="3139" selection-end="3139" vertical-scroll-proportion="2.5523417">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
