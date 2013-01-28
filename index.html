@@ -1,1 +1,697 @@
-My Github Page
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Ember.js A very gentle presentation</title>
+
+		<meta name="description" content="A introduction of Ember.js framework">
+		<meta name="author" content="Jose Salguero, jasalguero@gmail.com">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <link rel="stylesheet" href="lib/css/font-awesome.css">
+        <link rel="stylesheet" href="lib/css/font-awesome-ie7.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+        <link rel="stylesheet" href="css/main.css">
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+
+			<div class="slides">
+                <!-- START -->
+				<section>
+                    <div class="clear">
+                        <img src="images/ember-logo.png" width="221px" height="184px" class="float-left" />
+                        <span style="line-height: 221px;" class="huge">ember.js</span>
+                    </div>
+                    <span class="subtitle clear">A <i><u>very</u></i> gentle introduction</span>
+
+                    <aside class="notes">
+                        Intro
+                    </aside>
+				</section>
+
+                <!-- DISCLAIMER -->
+                <section>
+                    <i class="icon-warning-sign pull-left" style="color:#EFB500; font-size:250px"></i>
+                    <span class="huge">Disclaimer</span>
+
+                    <aside class="notes">
+                        - Point of view of developer
+                        - Not to take strictly
+                        - Breaking changes
+                    </aside>
+                </section>
+
+                <!-- WHAT IS -->
+				<section>
+                    <section>
+					    <span class="huge">What is <span class='orange'>Ember.js</span>?</span>
+
+                        <aside class="notes">
+                            - Many frameworks: Backbone, Angular, Batman, Knockout
+                            - Proper data models, client-side rendering
+                        </aside>
+                    </section>
+
+                    <section>
+                        <div class="title bigish">A bit of history...</div>
+                        <img src="images/history.png"/>
+                        <aside class="notes">
+                            - Yehuda Katz -> Member of RoR and Jquery core teams
+                            - Design inspired by Rails and Cocoa
+                        </aside>
+                    </section>
+
+                    <section>
+                        <div class="title bigish">Ok... so what is <span class='orange'>Ember.js</span>?</div>
+                        <div class="slideContent normal">
+                            <ul>
+                                <li class="fragment"><i class="icon-ok"></i>MVC Javascript Framework</li>
+                                <li class="fragment"><i class="icon-ok"></i>Rapid Development</li>
+                                <li class="fragment"><i class="icon-ok"></i>Enforce Good Practices</li>
+                                <li class="fragment"><i class="icon-ok"></i>Maintainable Code</li>
+                            </ul>
+                        </div>
+
+                        <aside class="notes">
+                            - Heavily opinionated (framework vs library)
+                            - Design inspired by Rails and Cocoa
+                        </aside>
+                    </section>
+				</section>
+
+                <!-- BASICS -->
+                <section>
+                    <div class="slideContent">
+                        <div class="column basics">
+                            <ul>
+                                <li class="normal fontNormal orange"><strong>BASICS</strong></li>
+                                <li>Application</li>
+                                <li>Model</li>
+                                <li>View</li>
+                                <li>Controller</li>
+                                <li>Handlebars</li>
+                            </ul>
+                        </div>
+                        <div class="column advanced disabled">
+                            <ul>
+                                <li class="normal fontNormal"><strong>ADVANCED</strong></li>
+                                <li>Router</li>
+                                <li>Computed Properties</li>
+                                <li>Mixins</li>
+                            </ul>
+                        </div>
+                        <div class="column conclusions disabled">
+                            <ul>
+                                <li class="normal fontNormal"><strong>CONCLUSIONS</strong></li>
+                                <li>The Bad</li>
+                                <li>The Good</li>
+                                <li>Resources</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- APPLICATION -->
+                <section>
+                    <section>
+                        <div class="title bigish">Application</div>
+                        <div class="slideContent normal">
+                            <ul>
+                                <li><i class="icon-ok"></i>Defines the namespace</li>
+                                <li><i class="icon-ok"></i>Manages other components</li>
+                                <li><i class="icon-ok"></i>Orchestrates the lifecycle</li>
+                            </ul>
+                        </div>
+
+                        <aside class="notes">
+                            - Namespace -> Clean separation
+                            - Components accessed through App.
+                            - Lifecycle -> Bindings
+                        </aside>
+                    </section>
+                    <section>
+                        <span class="title fontNormal">DEFINITION</span>
+                        <pre>
+                            <code contenteditable class="javascript">
+    var YourApp = Ember.Application.create();
+                            </code>
+                        </pre>
+                        <span class="title fontNormal">INITIALIZATION</span>
+                        <pre>
+                            <code contenteditable class="javascript">
+    YourApp.ready = function() {
+    /** INIT CODE GOES HERE **/
+    }
+    YourApp.initialize();
+                            </code>
+                        </pre>
+                    </section>
+                </section>
+
+                <!-- MODEL -->
+                <section>
+                    <section>
+                        <div class="title bigish">Model</div>
+                        <div class="slideContent normal">
+                            <ul>
+                                <li><i class="icon-ok"></i>Represent objects</li>
+                                <li><i class="icon-ok"></i>Define how data is stored</li>
+                                <li><i class="icon-ok"></i>Expanded by Ember Data</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <span class="title fontNormal">DEFINITION</span>
+                        <pre>
+                            <code contenteditable class="javascript">
+    App.Movie = Ember.Object.extend({
+        title : null,
+        year: null,
+        rating: 0,
+        available: null,
+        imdbLink: null
+    });
+                            </code>
+                        </pre>
+                        <span class="title fontNormal">USAGE</span>
+                        <pre>
+                            <code contenteditable class="javascript">
+    var movie = App.Movie.create();
+    movie.set('title','The Shawshank Redemption');
+    movie.set('year', 1994);
+    movie.set('rating', 9.2);
+    movie.set('available', true);
+    movie.set('imdbLink', 'http://www.imdb.com/title/tt0111161/');
+                            </code>
+                        </pre>
+                    </section>
+                </section>
+
+                <!-- VIEW -->
+                <section>
+                    <section>
+                        <div class="title bigish">VIEW</div>
+                        <div class="slideContent normal">
+                            <ul>
+                                <li><i class="icon-ok"></i>Encapsulates templates</li>
+                                <li><i class="icon-ok"></i>Defines the UI</li>
+                                <li><i class="icon-ok"></i>Handles events</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <span class="title fontNormal">DEFINITION</span>
+                        <pre>
+                            <code contenteditable class="javascript">
+    App.MoviesView = Ember.View.extend({
+        templateName: "movies",
+        baseClass: "table",
+        additionalClass: "table-hover"
+    });
+                            </code>
+                        </pre>
+                        <span class="title fontNormal">USAGE</span>
+                        <pre>
+                            <code contenteditable class="html" >
+    // JS
+    App.moviesView = App.MoviesView.create().append();
+
+    // HTML
+    {{#view App.moviesView}}
+    ...
+    {{/view}}
+
+    // HTML SELF CONTAINED
+    {{view App.MoviesView}}
+
+    // TEMPLATE DEFINITION
+    &lt;script type=&quot;text/x-handlebars&quot; data-template-name=&quot;say-hello&quot;&gt;<br/>        &lt;h1&gt;This is a template!&lt;/h1&gt;<br/>    &lt;/script&gt;
+                            </code>
+                        </pre>
+                    </section>
+                </section>
+
+                <!-- CONTROLLER -->
+                <section>
+                    <section>
+                        <div class="title bigish">Controller</div>
+                        <div class="slideContent normal">
+                            <ul>
+                                <li><i class="icon-ok"></i>Contain logic</li>
+                                <li><i class="icon-ok"></i>Bridge between template and model</li>
+                                <li><i class="icon-ok"></i>Manage object lists (Array Controller)</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <span class="title fontNormal">DEFINITION</span>
+                        <pre>
+                            <code contenteditable class="javascript">
+    //Basic Controller
+    App.ApplicationController = Ember.Controller.extend();
+
+    //Array Controller
+    App.MoviesController = Ember.ArrayController.extend({
+        content : null,
+
+        init: function(){
+            this.content = []
+        }
+    });
+                            </code>
+                        </pre>
+                        <span class="title fontNormal">USAGE</span>
+                        <pre>
+                            <code contenteditable class="javascript">
+    App.moviesController = App.MoviesController.create();
+                            </code>
+                        </pre>
+                    </section>
+                </section>
+
+                <!-- HANDLEBARS -->
+                <section>
+                    <section>
+                        <div class="title bigish">Handlebars</div>
+                        <div class="slideContent normal">
+                            <ul>
+                                <li><i class="icon-ok"></i>Templating engine</li>
+                                <li><i class="icon-ok"></i>Describe the UI</li>
+                                <li><i class="icon-ok"></i>Reusable</li>
+                                <li><i class="icon-ok"></i>Nested</li>
+                                <li><i class="icon-ok"></i>Helpers</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <span class="title fontNormal">Usage</span>
+                        <pre>
+                            <code contenteditable>
+    //syntax
+    {{App.myObject.property}}
+
+    //iterate collections
+    {{#each movie in App.moviesController}}
+        {{movie.title}}
+    {{/each}}
+
+    //conditional
+    {{#if App.myObject.property}}
+        //...
+    {{/if}}
+
+    //client side actions
+    &lt;a href="#" {{action actionName parameter target="..."}} &gt;Click me!&lt;/a&gt;
+
+                            </code>
+                        </pre>
+                    </section>
+                </section>
+
+                <!-- EXAMPLE 1 -->
+                <section>
+                    <div class="huge">EXAMPLE 1</div>
+                </section>
+
+                <!-- ADVANCED -->
+                <section>
+                    <div class="slideContent">
+                        <div class="column basics disabled">
+                            <ul>
+                                <li class="normal fontNormal"><strong>BASICS</strong></li>
+                                <li>Application</li>
+                                <li>Model</li>
+                                <li>View</li>
+                                <li>Controller</li>
+                                <li>Handlebars</li>
+                            </ul>
+                        </div>
+                        <div class="column advanced">
+                            <ul>
+                                <li class="normal fontNormal orange"><strong>ADVANCED</strong></li>
+                                <li>Router</li>
+                                <li>Computed Properties</li>
+                                <li>Mixins</li>
+                            </ul>
+                        </div>
+                        <div class="column conclusions disabled">
+                            <ul>
+                                <li class="normal fontNormal"><strong>CONCLUSIONS</strong></li>
+                                <li>The Bad</li>
+                                <li>The Good</li>
+                                <li>Resources</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ROUTER -->
+                <section>
+                    <section>
+                        <div class="title bigish">ROUTER</div>
+                        <div class="slideContent normal">
+                            <ul>
+                                <li><i class="icon-ok"></i>Manages the state of the application</li>
+                                <li><i class="icon-ok"></i>Initializes controllers and views</li>
+                                <li><i class="icon-ok"></i>De-/Serializes urls</li>
+                                <li><i class="icon-ok"></i>Injects views in templates</li>
+                                <li><i class="icon-ok"></i>Connects outlets</li>
+                            </ul>
+                        </div>
+
+                        <aside class="notes">
+                            Outlets -> Placeholders for templates
+                        </aside>
+
+                    </section>
+                    <section>
+                        <span class="title fontNormal">Usage</span>
+                        <pre>
+                            <code class="javascript" contenteditable>
+    App.Router = Ember.Router.extend({
+        root: Ember.Route.extend({
+            index: Ember.Route.extend({
+                route: '/'
+            }),
+            movie: Ember.Route.extend({
+                route: '/movie/:id',
+                deserialize:  function(router, context){
+                  var id = parseInt(context.id);
+                  var controller = router.get('moviesController');
+                  return controller.findProperty('id', id);
+                },
+                serialize:  function(router, context){
+                  return {
+                    id: context.id
+                  }
+                },
+                connectOutlets: function(router, context){
+                  //Set the movie in the controller
+                  router.get('movieProfileController')
+                                .set('content',context);
+                  //Connect the outlet to the view/template/controller
+                  router.get('applicationController')
+                                .connectOutlet('movieProfile');
+                }
+            })
+        })
+    });
+                            </code>
+                        </pre>
+                    </section>
+
+                    <section>
+                        <div class="huge">EXAMPLE 2</div>
+                    </section>
+                </section>
+
+                <!-- COMPUTED PROPERTIES -->
+                <section>
+                    <section>
+                        <div class="title bigish">COMPUTED PROPERTIES</div>
+                        <div class="slideContent normal">
+                            <ul>
+                                <li><i class="icon-ok"></i>Composition of properties</li>
+                                <li><i class="icon-ok"></i>Cached</li>
+                                <li><i class="icon-ok"></i>Observers</li>
+                                <li><i class="icon-ok"></i>Setters</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <span class="title fontNormal">Usage</span>
+                        <pre>
+                            <code class="javascript" contenteditable>
+    //Model computed property
+    App.Movie = Ember.Object.extend({
+        onSale: function(){
+            return ((this.rating < 4 ) && this.available) ? true : false;
+        }.property("rating", "available")
+    });
+
+    //Controller aggregated computed property
+    App.MoviesController = Ember.ArrayController.extend({
+        availableTitles: function(){
+            return this.content.
+                filterProperty('available',true).get('length');
+        }.property('content.@each.available'),
+    ...
+    //Computed property with setter
+    Person = Ember.Object.extend{
+        //declared firstName and lastName as properties
+        fullName: function(key,value){
+            //getter
+            if(arguments.length === 1) {
+              return this.get('firstName') + ' ' + this.get('lastName');
+            }
+            //setter
+            else {
+                var name = value.split(" ");
+
+                this.set('firstName', name[0]);
+                this.set('lastName', name[1]);
+            }
+        }
+    }
+}
+                            </code>
+                        </pre>
+                    </section>
+                </section>
+
+                <!-- MIXINS -->
+                <section>
+                    <section>
+                        <div class="title bigish">MIXINS</div>
+                        <div class="slideContent normal">
+                            <ul>
+                                <li><i class="icon-ok"></i>Encapsulates functionality</li>
+                                <li><i class="icon-ok"></i>Applicable to any object</li>
+                                <li><i class="icon-ok"></i>Reusable</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <span class="title fontNormal">Definition</span>
+                        <pre>
+                            <code class="javascript" contenteditable>
+    //Default Object
+    App.Client = Ember.Object.extend(){
+        name: null
+        ...
+    }
+
+    //Our Mixins
+    App.GeekMixin = Ember.Mixin.create(){
+        favouriteMovie: null,
+        init: function() {
+            this._super();
+            this.set("favouriteMovie", "Star Wars");
+        }
+    }
+
+    App.HipsterMixin = Ember.Mixin.create(){
+        favouriteDirector: null,
+        init: function() {
+            this._super();
+            this.set("favouriteDirector", "Aronofsky");
+        }
+    }
+                            </code>
+                        </pre>
+                    </section>
+                    <section>
+                        <span class="title fontNormal">Usage</span>
+                        <pre>
+                            <code class="javascript" contenteditable>
+    //Default initialization
+    var clientA = App.Client.create(GeekMixin,HipsterMixin);
+    clientA.set('name','Joe');
+
+    clientA.get('favouriteMovie');      // Star Wars
+    clientA.get('favouriteDirector');   // Aronofsky
+
+    //Change default values
+    var clientB = App.Client.create(GeekMixin,HipsterMixin, {
+        init:function(){
+        this._super();
+        this.set('favouriteMovie', 'Star Trek');
+        }
+    });
+
+    clientB.get('favouriteMovie'); //'Star Trek'
+                            </code>
+                        </pre>
+                    </section>
+                </section>
+
+                <!-- EXAMPLE 3 -->
+                <section>
+                    <div class="huge">EXAMPLE 3</div>
+                </section>
+
+                <!-- CONCLUSION -->
+                <section>
+                    <div class="slideContent">
+                        <div class="column basics disabled">
+                            <ul>
+                                <li class="normal fontNormal"><strong>BASICS</strong></li>
+                                <li>Application</li>
+                                <li>Model</li>
+                                <li>View</li>
+                                <li>Controller</li>
+                                <li>Handlebars</li>
+                            </ul>
+                        </div>
+                        <div class="column advanced disabled">
+                            <ul>
+                                <li class="normal fontNormal"><strong>ADVANCED</strong></li>
+                                <li>Router</li>
+                                <li>Computed Properties</li>
+                                <li>Mixins</li>
+                            </ul>
+                        </div>
+                        <div class="column conclusions">
+                            <ul>
+                                <li class="normal fontNormal orange"><strong>CONCLUSIONS</strong></li>
+                                <li>The Bad</li>
+                                <li>The Good</li>
+                                <li>Resources</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- THE BAD -->
+                <section>
+                    <div class="title bigish">The Bad</div>
+                    <div class="slideContent normal">
+                        <ul>
+                            <li class="fragment"><i class="icon-thumbs-down"></i>Still Not Final</li>
+                            <li class="fragment"><i class="icon-thumbs-down"></i>Documentation</li>
+                            <li class="fragment"><i class="icon-thumbs-down"></i>Learning Curve</li>
+                            <li class="fragment"><i class="icon-thumbs-down"></i>Handlebars</li>
+                            <li class="fragment"><i class="icon-thumbs-down"></i>Not Modular By Design</li>
+                            <li class="fragment"><i class="icon-thumbs-down"></i>Performance <a class="navigate-down" href="http://jsperf.com/angular-vs-knockout-vs-ember/51" target="new"><i class="icon-external-link"></i></a></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- THE GOOD -->
+                <section>
+                    <div class="title bigish">The Good</div>
+                    <div class="slideContent normal">
+                        <ul>
+                            <li class="fragment"><i class="icon-thumbs-up"></i>Productivity</li>
+                            <li class="fragment"><i class="icon-thumbs-up"></i>Forces Best Practices <span style="font-size:15px">(MVC, OO, Observer)</span></li>
+                            <li class="fragment"><i class="icon-thumbs-up"></i>Bindings</li>
+                            <li class="fragment"><i class="icon-thumbs-up"></i>Computed Properties</li>
+                            <li class="fragment"><i class="icon-thumbs-up"></i>URL Management</li>
+                            <li class="fragment"><i class="icon-thumbs-up"></i>Handlebars</li>
+                            <li class="fragment"><i class="icon-thumbs-up"></i>Community Support</li>
+                            <li class="fragment"><i class="icon-thumbs-up"></i>Performance <a class="link" href="http://jsperf.com/angular-vs-knockout-vs-ember/61" target="new"><i class="icon-external-link"></i></a></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- RESOURCES -->
+                <section>
+                    <div class="title bigish">Extensions</div>
+                    <div class="slideContent normal">
+                        <ul>
+                            <li><i class="icon-ok"></i>Ember-data <a class="link" href="https://github.com/emberjs/data" target="new"><i class="icon-external-link"></i></a></li>
+                            <li><i class="icon-ok"></i>Flame.js <a class="link" href="https://github.com/flamejs" target="new"><i class="icon-external-link"></i></a></li>
+                            <li><i class="icon-ok"></i>Ember-bootstrap <a class="link" href="http://jsperf.com/angular-vs-knockout-vs-ember/61" target="new"><i class="icon-external-link"></i></a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <div class="title bigish">Resources</div>
+                    <div class="slideContent normal">
+                        <ul>
+                            <li><i class="icon-ok"></i>API <a class="link" href="http://emberjs.com/api/" target="new"><i class="icon-external-link"></i></a></li>
+                            <li><i class="icon-ok"></i>Blogs <a class="link" href="http://tomdale.net/" target="new">(Tom Dale)</a>, <a class="link" href="http://www.emberist.com/" target="new">(Emberist)</a></li>
+                            <li><i class="icon-ok"></i>Ember Functions <a class="link" href="http://code418.com/blog/2012/03/08/useful-emberjs-functions/" target="new"><i class="icon-external-link"></i></a></li>
+                            <li><i class="icon-ok"></i>Stack Overflow</li>
+                            <li><i class="icon-ok"></i><i>(the)</i> Book <a class="link" href="http://www.noelrappin.com/"><i class="icon-external-link"></i></a></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- QUESTIONS -->
+               <section>
+                    <div class="huge">Questions ¿?</div>
+                </section>
+
+                <!-- THANK YOU -->
+                <section>
+                    <div class="huge">Thank you!</div>
+                    <div class="slideContent">Presentation available in: <br/><a class="link" href="https://github.com/jasalguero/EmberPresentation"><i class="icon-github" style="color:#FF7F24;margin-right:10px"></i>  <a class="link" href="https://github.com/jasalguero/EmberPresentation">https://github.com/jasalguero/EmberPresentation</a></div>
+                </section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+            Reveal.addEventListener( 'slidechanged', function( event ) {
+                // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+                var notes = event.currentSlide.querySelector(".notes");
+                if(notes) {
+                    console.info(notes.innerHTML.replace(/\n\s+/g,'\n'));
+                }
+            } );
+
+		</script>
+
+	</body>
+</html>
